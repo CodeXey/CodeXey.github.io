@@ -406,8 +406,9 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       lang       : 'zh-cn' || 'zh-cn',
       path       : location.pathname,
       recordIP   : false,
-      serverURLs : ''
-      enableQQ   : true
+      serverURLs : '',
+      enableQQ   : true,
+      requiredFields : 'nick,mail'
     });
   }, window.Valine);
 });
