@@ -247,6 +247,20 @@
             </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/02/04/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%85%B3%E8%81%94%E9%A3%8E%E9%99%A9/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/04/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%85%B3%E8%81%94%E9%A3%8E%E9%99%A9/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -340,6 +354,7 @@
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -513,6 +528,80 @@
   
 
   
+
+<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el: '#valine-comments',
+      verify: false,
+      notify: false,
+      appId: 'wvLxWO6YK4VRrOBFQnIGt88r-MdYXbMMI',
+      appKey: 'LV37N2W65LnFad22uKChbjCf',
+      placeholder: "友好发言，共建和谐社会.",
+      avatar: 'mm',
+      meta: guest,
+      pageSize: '10' || 10,
+      visitor: false,
+      lang: 'zh-cn' || 'zh-cn',
+      path: location.pathname,
+      recordIP: false,
+      serverURLs: ''
+    });
+  }, window.Valine);
+});
+
+$(document).ready(function(){ 
+//检测是否有评论框
+if($("#vcomments").html()){
+    //定义变量
+    var c_name = $('#vcomments input[name="nick"]');
+    var c_mail = $('#vcomments input[type="email"]');
+    var c_text = $('#veditor');
+    var mailzz = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
+    //placeholder
+    var c_placeholder = c_text.attr('placeholder');
+    //隐藏
+    $(".vcontrol .text-right button").hide();
+    $(".vcontrol .text-right").prepend('<span class="submit_f vbtn">回复</span>');
+    $('body').on('click','.submit_f',function(){
+        if(nullpd(c_name.val())){ 
+            alert("昵称无效");
+            return false;
+        }
+        if(!mailzz.test(c_mail.val())){
+            alert("邮箱无效");
+            return false;
+        }
+        if(!c_text.val()){
+            alert("留言评论不能为空");
+            return false;
+        }
+        $('.vsubmit').click();
+
+    });
+    //判断空
+    function nullpd(str){
+        if(str == "" || str == null || str == undefined){
+            return true;
+        }else{
+            return false;
+        }
+    }
+ }
+}); 
+</script>
+
+
+// 要记得引入JQ
+
 
 </body>
 </html>
