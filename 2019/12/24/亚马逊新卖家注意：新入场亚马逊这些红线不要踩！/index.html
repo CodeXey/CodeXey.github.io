@@ -253,20 +253,6 @@
             </span>
 
           
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="fa fa-comment-o"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2019/12/24/%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%96%B0%E5%8D%96%E5%AE%B6%E6%B3%A8%E6%84%8F%EF%BC%9A%E6%96%B0%E5%85%A5%E5%9C%BA%E4%BA%9A%E9%A9%AC%E9%80%8A%E8%BF%99%E4%BA%9B%E7%BA%A2%E7%BA%BF%E4%B8%8D%E8%A6%81%E8%B8%A9%EF%BC%81/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2019/12/24/%E4%BA%9A%E9%A9%AC%E9%80%8A%E6%96%B0%E5%8D%96%E5%AE%B6%E6%B3%A8%E6%84%8F%EF%BC%9A%E6%96%B0%E5%85%A5%E5%9C%BA%E4%BA%9A%E9%A9%AC%E9%80%8A%E8%BF%99%E4%BA%9B%E7%BA%A2%E7%BA%BF%E4%B8%8D%E8%A6%81%E8%B8%A9%EF%BC%81/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
 
         </div>
       </header>
@@ -332,7 +318,6 @@
 
           </div>
           
-    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -506,35 +491,6 @@
   
 
   
-
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('//cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
-      el: '#valine-comments',
-      verify: false,
-      notify: false,
-      appId: 'wvLxWO6YK4VRrOBFQnIGt88r-MdYXbMMI',
-      appKey: 'LV37N2W65LnFad22uKChbjCf',
-      placeholder: "友好发言，共建和谐社会.",
-      avatar: 'mm',
-      meta: guest,
-      pageSize: '10' || 10,
-      visitor: false,
-      lang: 'zh-cn' || 'zh-cn',
-      path: location.pathname,
-      recordIP: false,
-      serverURLs: ''
-    });
-  }, window.Valine);
-});
-</script>
 
 </body>
 </html>
