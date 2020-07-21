@@ -496,7 +496,6 @@
 
   
 
-<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
 
 <script>
 NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
@@ -524,50 +523,6 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
     });
   }, window.Valine);
 });
-
-$(document).ready(function(){ 
-//检测是否有评论框
-if($("#vcomments").html()){
-    //定义变量
-    var c_name = $('#vcomments input[name="nick"]');
-    var c_mail = $('#vcomments input[type="email"]');
-    var c_text = $('#veditor');
-    var mailzz = /^([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+@([a-zA-Z0-9]+[_|\_|\.]?)*[a-zA-Z0-9]+\.[a-zA-Z]{2,3}$/;
-    //placeholder
-    var c_placeholder = c_text.attr('placeholder');
-    //隐藏
-    $(".vcontrol .text-right button").hide();
-    $(".vcontrol .text-right").prepend('<span class="submit_f vbtn">回复</span>');
-    $('body').on('click','.submit_f',function(){
-        if(nullpd(c_name.val())){ 
-            alert("昵称无效");
-            return false;
-        }
-        if(!mailzz.test(c_mail.val())){
-            alert("邮箱无效");
-            return false;
-        }
-        if(!c_text.val()){
-            alert("留言评论不能为空");
-            return false;
-        }
-        $('.vsubmit').click();
-
-    });
-    //判断空
-    function nullpd(str){
-        if(str == "" || str == null || str == undefined){
-            return true;
-        }else{
-            return false;
-        }
-    }
- }
-}); 
-</script>
-
-
-// 要记得引入JQ
 
 
 </body>
