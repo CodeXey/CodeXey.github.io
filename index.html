@@ -203,8 +203,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -286,8 +284,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -374,8 +370,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -463,8 +457,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -544,8 +536,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -630,8 +620,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -708,8 +696,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -795,8 +781,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -881,8 +865,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -968,8 +950,6 @@
             </span>
 
           
-  
-  
 
         </div>
       </header>
@@ -1182,36 +1162,6 @@
   
 
   
-
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('https://cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
-      el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
-      appId      : 'wvLxWO6YK4VRrOBFQnIGt88r-MdYXbMMI',
-      appKey     : 'LV37N2W65LnFad22uKChbjCf',
-      placeholder: "Just go go",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : false,
-      lang       : 'zh-cn' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : false,
-      serverURLs : '',
-      enableQQ   : true,
-      requiredFields : ['nick','mail']
-  }, window.Valine);
-});
-</script>
 
 </body>
 </html>
