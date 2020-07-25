@@ -207,6 +207,20 @@
             </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="far fa-comment"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2019/12/31/%E4%BB%8E21%E4%B8%96%E7%BA%AA%E7%9A%84%E4%B8%80%E3%80%87%E5%B9%B4%E4%BB%A3%E5%88%B0%E4%BA%8C%E3%80%87%E5%B9%B4%E4%BB%A3/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2019/12/31/%E4%BB%8E21%E4%B8%96%E7%BA%AA%E7%9A%84%E4%B8%80%E3%80%87%E5%B9%B4%E4%BB%A3%E5%88%B0%E4%BA%8C%E3%80%87%E5%B9%B4%E4%BB%A3/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -265,6 +279,7 @@
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -434,6 +449,36 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('https://cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'wvLxWO6YK4VRrOBFQnIGt88r-MdYXbMMI',
+      appKey     : 'LV37N2W65LnFad22uKChbjCf',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : 'zh-cn' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : '',
+      enableQQ   : true,
+      requiredFields : ['nick','mail']
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
