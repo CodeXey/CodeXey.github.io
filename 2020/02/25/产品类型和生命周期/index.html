@@ -537,14 +537,9 @@
 
 
 <script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+NexT.utils.loadComments('#valine-comments', () => {
   NexT.utils.getScript('https://cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = '';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
+    new Valine(Object.assign({
       el         : '#valine-comments',
       verify     : false,
       notify     : false,
@@ -560,85 +555,11 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
       recordIP   : false,
       serverURLs : '',
       enableQQ   : true,
-      requiredFields : ['nick','mail'],
-
-
-
-
-
-      emojiMaps: {
-      "xiaomai14" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai14%20.png",
-"xiaomai15" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai15%20.png",
-"xiaomai17" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai17%20.png",
-"xiaomai16" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai16%20.png",
-"xiaomai3"  : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai3%20.png",
-"xiaomai7"  : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai7%20.png",
-"xiaomai12" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai12%20.png",
-"xiaomai13" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai13%20.png",
-"xiaomai6" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai6%20.png",
-"xiaomai4" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai4%20.png",
-"xiaomai11" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai11%20.png",
-"xiaomai10" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai10%20.png",
-"xiaomai5" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai5%20.png",
-"xiaomai8" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai8%20.png",
-"xiaomai21" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai21%20.png",
-"xiaomai20" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai20%20.png",
-"xiaomai9" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai9%20.png",
-"xiaomai22" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai22%20.png",
-"xiaomai18" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai18%20.png",
-"xiaomai19" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai19%20.png",
-"richang12" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang12%20.jpg",
-"richang6" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang6%20.jpg",
-"richang7" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang7%20.jpg",
-"richang13" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang13%20.jpg",
-"richang39" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang39%20.jpg",
-"richang11" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang11%20.jpg",
-"richang5" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang5%20.jpg",
-"richang4" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang4%20.jpg",
-"richang10" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang10%20.jpg",
-"richang38" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang38%20.jpg",
-"richang14" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang14%20.jpg",
-"richang28" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang28%20.jpg",
-"richang1" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang1%20.jpg",
-"richang29" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang29%20.jpg",
-"richang15" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang15%20.jpg",
-"richang17" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang17%20.jpg",
-"richang3" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang3%20.jpg",
-"richang2" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang2%20.jpg",
-"richang16" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang16%20.jpg",
-"richang42" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang42%20.jpg",
-"richang43" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang43%20.jpg",
-"richang41" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang41%20.jpg",
-"richang40" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang40%20.jpg",
-"richang33" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang33%20.jpg",
-"richang27" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang27%20.jpg",
-"richang26" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang26%20.jpg",
-"richang32" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang32%20.jpg",
-"richang18" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang18%20.jpg",
-"richang24" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang24%20.jpg",
-"richang30" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang30%20.jpg",
-"richang31" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang31%20.jpg",
-"richang25" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang25%20.jpg",
-"richang19" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang19%20.jpg",
-"richang21" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang21%20.jpg",
-"richang35" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang35%20.jpg",
-"richang9" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang9%20.jpg",
-"richang8" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang8%20.jpg",
-"richang34" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang34%20.jpg",
-"richang20" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang20%20.jpg",
-"richang36" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang36%20.jpg",
-"richang22" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang22%20.jpg",
-"richang23" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang23%20.jpg",
-"richang37" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang37%20.jpg"
-
-    } 
-
-
-
-      });
+      requiredFields : ['nick','mail']
+    }, {"enable":true,"appId":"wvLxWO6YK4VRrOBFQnIGt88r-MdYXbMMI","appKey":"LV37N2W65LnFad22uKChbjCf","notify":false,"verify":false,"placeholder":"友好交流，共建和谐。","avatar":"mm","meta":"nick,mail,link","pageSize":10,"language":"zh-cn","enableQQ":true,"requiredFields":["nick","mail"],"visitor":false,"comment_count":false,"recordIP":false,"serverURLs":null}
+    ));
   }, window.Valine);
 });
 </script>
-
 </body>
 </html>
