@@ -13,11 +13,13 @@
 <link rel="stylesheet" href="/css/main.css">
 
 
-<link rel="stylesheet" href="/lib/font-awesome/css/all.min.css">
 
-<script id="hexo-configurations">
+<link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.14.0/css/all.min.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css">
+
+<script class="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"ioser.io","root":"/","scheme":"Muse","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"./search.xml"};
+    var CONFIG = {"hostname":"ioser.io","root":"/","scheme":"Muse","version":"8.0.0-rc.5","exturl":false,"sidebar":{"position":"right","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":true,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"path":"./search.xml","localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false}};
   </script>
 
   <meta name="description" content="产品的五要素 标题(Product Name) 图片(Picture, 最多九张) 5点描述(bullet points) 详情描述(Product Description) 后台关键词设置(KeyWords, 消费者不可见)">
@@ -33,10 +35,11 @@
 <meta property="article:tag" content="亚马逊">
 <meta name="twitter:card" content="summary">
 
+
 <link rel="canonical" href="https://ioser.io/2020/02/04/listing%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/">
 
 
-<script id="page-configurations">
+<script class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
@@ -56,24 +59,36 @@
 
   <noscript>
   <style>
-  .use-motion .brand,
+  body { margin-top: 2rem; }
+
   .use-motion .menu-item,
-  .sidebar-inner,
+  .use-motion .sidebar,
   .use-motion .post-block,
   .use-motion .pagination,
   .use-motion .comments,
   .use-motion .post-header,
   .use-motion .post-body,
-  .use-motion .collection-header { opacity: initial; }
+  .use-motion .collection-header {
+    visibility: visible;
+  }
+
+  .use-motion .header,
+  .use-motion .site-brand-container .toggle,
+  .use-motion .footer { opacity: initial; }
 
   .use-motion .site-title,
-  .use-motion .site-subtitle {
+  .use-motion .site-subtitle,
+  .use-motion .custom-logo-image {
     opacity: initial;
     top: initial;
   }
 
-  .use-motion .logo-line-before i { left: initial; }
-  .use-motion .logo-line-after i { right: initial; }
+  .use-motion .logo-line {
+    transform: scaleX(1);
+  }
+
+  .search-pop-overlay, .sidebar-nav { display: none; }
+  .sidebar-panel { display: block; }
   </style>
 </noscript>
 
@@ -84,22 +99,23 @@
   <div class="container use-motion">
     <div class="headband"></div>
 
-    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><div class="site-brand-container">
+    <main class="main">
+      <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+        <div class="header-inner"><div class="site-brand-container">
   <div class="site-nav-toggle">
     <div class="toggle" aria-label="切换导航栏">
-      <span class="toggle-line toggle-line-first"></span>
-      <span class="toggle-line toggle-line-middle"></span>
-      <span class="toggle-line toggle-line-last"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
+        <span class="toggle-line"></span>
     </div>
   </div>
 
   <div class="site-meta">
 
     <a href="/" class="brand" rel="start">
-      <span class="logo-line-before"><i></i></span>
+      <i class="logo-line"></i>
       <h1 class="site-title">进击的小白</h1>
-      <span class="logo-line-after"><i></i></span>
+      <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">你打开那一扇窗，就会看到那样的风景。</p>
   </div>
@@ -110,7 +126,6 @@
     </div>
   </div>
 </div>
-
 
 
 
@@ -152,7 +167,7 @@
     <i class="fa fa-search"></i>
   </span>
   <div class="search-input-container">
-    <input autocomplete="off" autocapitalize="off"
+    <input autocomplete="off" autocapitalize="off" maxlength="80"
            placeholder="搜索..." spellcheck="false"
            type="search" class="search-input">
   </div>
@@ -162,7 +177,7 @@
 </div>
 <div id="search-result">
   <div id="no-result">
-    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+    <i class="fa fa-spinner fa-pulse fa-5x"></i>
   </div>
 </div>
 
@@ -170,9 +185,82 @@
   </div>
 
 </div>
-    </header>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+    <span class="toggle-line"></span>
+  </div>
 
-    
+  <aside class="sidebar">
+
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
+      <ul class="sidebar-nav">
+        <li class="sidebar-nav-toc">
+          文章目录
+        </li>
+        <li class="sidebar-nav-overview">
+          站点概览
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <section class="post-toc-wrap sidebar-panel">
+          <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0"><span class="nav-number">1.</span> <span class="nav-text">产品的五要素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%84%E9%87%91%E8%B4%AD%E7%89%A9%E8%BD%A6"><span class="nav-number">2.</span> <span class="nav-text">黄金购物车</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%B4%AD%E7%89%A9%E8%BD%A6"><span class="nav-number">2.1.</span> <span class="nav-text">关于购物车</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#BuyBox%E6%8A%A2%E5%A4%BA%E6%9C%BA%E5%88%B6"><span class="nav-number">2.2.</span> <span class="nav-text">BuyBox抢夺机制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%8E%E4%B9%88%E6%8A%A2%E5%A4%BA%E8%B4%AD%E7%89%A9%E8%BD%A6"><span class="nav-number">2.3.</span> <span class="nav-text">怎么抢夺购物车</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#listing%E9%A1%B5%E9%9D%A2%E5%85%B3%E8%81%94%E6%B5%81%E9%87%8F%E6%A8%A1%E5%9D%97"><span class="nav-number">3.</span> <span class="nav-text">listing页面关联流量模块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Frequently-bought-together-FBT-%E6%8D%86%E7%BB%91%E5%85%B3%E8%81%94"><span class="nav-number">3.1.</span> <span class="nav-text">Frequently bought together(FBT,捆绑关联)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Sponsored-products-related-to-this-item-%E5%B9%BF%E5%91%8A%E5%85%B3%E8%81%94"><span class="nav-number">3.2.</span> <span class="nav-text">Sponsored products related to this item(广告关联)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Customers-who-viewed-this-item-also-viewed-%E5%95%86%E5%93%81%E4%B9%B0%E5%AE%B6%E7%9B%B8%E5%85%B3%E8%B4%AD%E4%B9%B0%EF%BC%8C%E4%B9%B0%E4%BA%86%E5%8F%88%E4%B9%B0%EF%BC%8C%E7%9C%8B%E4%BA%86%E5%8F%88%E7%9C%8B"><span class="nav-number">3.3.</span> <span class="nav-text">Customers who viewed this item also viewed(商品买家相关购买，买了又买，看了又看)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Special-offers-and-product-promotions-%E7%89%B9%E4%BB%B7%E4%BA%A7%E5%93%81"><span class="nav-number">3.4.</span> <span class="nav-text">Special offers and product promotions(特价产品)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Compare-with-similar-item-%E5%85%B3%E8%81%94%E6%B5%81%E9%87%8F"><span class="nav-number">3.5.</span> <span class="nav-text">Compare with similar item(关联流量)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Customer-questions-amp-answers-Q-amp-A"><span class="nav-number">4.</span> <span class="nav-text">Customer questions &amp; answers(Q&amp;A)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EQ-amp-A"><span class="nav-number">4.1.</span> <span class="nav-text">关于Q&amp;A</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AEQ-amp-A%EF%BC%9F"><span class="nav-number">4.2.</span> <span class="nav-text">如何提问Q&amp;A？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%9B%9E%E5%A4%8DQ-amp-A"><span class="nav-number">4.3.</span> <span class="nav-text">如何回复Q&amp;A?</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%9A%E9%A9%AC%E9%80%8A%E8%AF%84%E4%BB%B7%E7%B3%BB%E7%BB%9F"><span class="nav-number">5.</span> <span class="nav-text">亚马逊评价系统</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Custom-Review-Product-Review"><span class="nav-number">5.1.</span> <span class="nav-text">Custom Review(Product Review)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#FeedBack"><span class="nav-number">5.2.</span> <span class="nav-text">FeedBack</span></a></li></ol></li></ol></div>
+      </section>
+      <!--/noindex-->
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-author animated" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">白苇杭</p>
+  <div class="site-description" itemprop="description">能与萧大侠一起喝酒撸串，该有多好！</div>
+</div>
+<div class="site-state-wrap animated">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">16</span>
+          <span class="site-state-item-name">日志</span>
+        </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">3</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">8</span>
+        <span class="site-state-item-name">标签</span></a>
+      </div>
+  </nav>
+</div>
+  <div class="sidebar-button animated">
+    <a onclick="tidioChatApi.open();"><i class="fa fa-comments"></i>
+    Chat
+  </a>
+  </div>
+  <div class="links-of-author animated">
+      <span class="links-of-author-item">
+        <a href="mailto:hoosealy@gmail.com" title="E-Mail → mailto:hoosealy@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
+      </span>
+  </div>
+
+
+
+      </section>
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </header>
+
+      
   <div class="back-to-top">
     <i class="fa fa-arrow-up"></i>
     <span>0%</span>
@@ -180,14 +268,16 @@
   <div class="reading-progress-bar"></div>
   <a role="button" class="book-mark-link book-mark-link-fixed"></a>
 
+<noscript>
+  <div id="noscript-warning">Theme NexT works best with JavaScript enabled</div>
+</noscript>
 
-    <main class="main">
+
       <div class="main-inner">
-        <div class="content-wrap">
-          
+        
 
-          <div class="content post posts-expand">
-            
+        <div class="content post posts-expand">
+          
 
     
   
@@ -204,6 +294,9 @@
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
       <meta itemprop="name" content="进击的小白">
     </span>
+
+    
+    
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
           listing页面详解
@@ -236,20 +329,6 @@
             </span>
 
           
-  
-  <span class="post-meta-item">
-    
-      <span class="post-meta-item-icon">
-        <i class="far fa-comment"></i>
-      </span>
-      <span class="post-meta-item-text">Valine：</span>
-    
-    <a title="valine" href="/2020/02/04/listing%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/#valine-comments" itemprop="discussionUrl">
-      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/04/listing%E9%A1%B5%E9%9D%A2%E8%AF%A6%E8%A7%A3/" itemprop="commentCount"></span>
-    </a>
-  </span>
-  
-  
 
         </div>
       </header>
@@ -258,8 +337,6 @@
     
     
     <div class="post-body" itemprop="articleBody">
-
-      
         <h3 id="产品的五要素"><a href="#产品的五要素" class="headerlink" title="产品的五要素"></a><a href="https://ioser.io/2020/02/05/%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0/">产品的五要素</a></h3><ul>
 <li>标题(Product Name)</li>
 <li>图片(Picture, 最多九张)</li>
@@ -353,18 +430,18 @@
 
         
 
-
-        
-    <div class="post-nav">
-      <div class="post-nav-item">
-    <a href="/2020/02/04/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%89%8D%E5%8F%B0%E7%95%8C%E9%9D%A2%E8%AE%B2%E8%A7%A3/" rel="prev" title="亚马逊前台界面讲解">
-      <i class="fa fa-chevron-left"></i> 亚马逊前台界面讲解
-    </a></div>
-      <div class="post-nav-item">
-    <a href="/2020/02/05/%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0/" rel="next" title="产品的五要素">
-      产品的五要素 <i class="fa fa-chevron-right"></i>
-    </a></div>
-    </div>
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2020/02/04/%E4%BA%9A%E9%A9%AC%E9%80%8A%E5%89%8D%E5%8F%B0%E7%95%8C%E9%9D%A2%E8%AE%B2%E8%A7%A3/" rel="prev" title="亚马逊前台界面讲解">
+                  <i class="fa fa-chevron-left"></i> 亚马逊前台界面讲解
+                </a>
+            </div>
+            <div class="post-nav-item">
+                <a href="/2020/02/05/%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0/" rel="next" title="产品的五要素">
+                  产品的五要素 <i class="fa fa-chevron-right"></i>
+                </a>
+            </div>
+          </div>
       </footer>
     
   </article>
@@ -374,9 +451,8 @@
 
 
 
-          </div>
-          
-    <div class="comments" id="valine-comments"></div>
+        </div>
+        
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -400,81 +476,6 @@
   }
 </script>
 
-        </div>
-          
-  
-  <div class="toggle sidebar-toggle">
-    <span class="toggle-line toggle-line-first"></span>
-    <span class="toggle-line toggle-line-middle"></span>
-    <span class="toggle-line toggle-line-last"></span>
-  </div>
-
-  <aside class="sidebar">
-    <div class="sidebar-inner">
-
-      <ul class="sidebar-nav motion-element">
-        <li class="sidebar-nav-toc">
-          文章目录
-        </li>
-        <li class="sidebar-nav-overview">
-          站点概览
-        </li>
-      </ul>
-
-      <!--noindex-->
-      <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0"><span class="nav-number">1.</span> <span class="nav-text">产品的五要素</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%BB%84%E9%87%91%E8%B4%AD%E7%89%A9%E8%BD%A6"><span class="nav-number">2.</span> <span class="nav-text">黄金购物车</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8E%E8%B4%AD%E7%89%A9%E8%BD%A6"><span class="nav-number">2.1.</span> <span class="nav-text">关于购物车</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#BuyBox%E6%8A%A2%E5%A4%BA%E6%9C%BA%E5%88%B6"><span class="nav-number">2.2.</span> <span class="nav-text">BuyBox抢夺机制</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E6%80%8E%E4%B9%88%E6%8A%A2%E5%A4%BA%E8%B4%AD%E7%89%A9%E8%BD%A6"><span class="nav-number">2.3.</span> <span class="nav-text">怎么抢夺购物车</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#listing%E9%A1%B5%E9%9D%A2%E5%85%B3%E8%81%94%E6%B5%81%E9%87%8F%E6%A8%A1%E5%9D%97"><span class="nav-number">3.</span> <span class="nav-text">listing页面关联流量模块</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Frequently-bought-together-FBT-%E6%8D%86%E7%BB%91%E5%85%B3%E8%81%94"><span class="nav-number">3.1.</span> <span class="nav-text">Frequently bought together(FBT,捆绑关联)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Sponsored-products-related-to-this-item-%E5%B9%BF%E5%91%8A%E5%85%B3%E8%81%94"><span class="nav-number">3.2.</span> <span class="nav-text">Sponsored products related to this item(广告关联)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Customers-who-viewed-this-item-also-viewed-%E5%95%86%E5%93%81%E4%B9%B0%E5%AE%B6%E7%9B%B8%E5%85%B3%E8%B4%AD%E4%B9%B0%EF%BC%8C%E4%B9%B0%E4%BA%86%E5%8F%88%E4%B9%B0%EF%BC%8C%E7%9C%8B%E4%BA%86%E5%8F%88%E7%9C%8B"><span class="nav-number">3.3.</span> <span class="nav-text">Customers who viewed this item also viewed(商品买家相关购买，买了又买，看了又看)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Special-offers-and-product-promotions-%E7%89%B9%E4%BB%B7%E4%BA%A7%E5%93%81"><span class="nav-number">3.4.</span> <span class="nav-text">Special offers and product promotions(特价产品)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#Compare-with-similar-item-%E5%85%B3%E8%81%94%E6%B5%81%E9%87%8F"><span class="nav-number">3.5.</span> <span class="nav-text">Compare with similar item(关联流量)</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Customer-questions-amp-answers-Q-amp-A"><span class="nav-number">4.</span> <span class="nav-text">Customer questions &amp; answers(Q&amp;A)</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%85%B3%E4%BA%8EQ-amp-A"><span class="nav-number">4.1.</span> <span class="nav-text">关于Q&amp;A</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E6%8F%90%E9%97%AEQ-amp-A%EF%BC%9F"><span class="nav-number">4.2.</span> <span class="nav-text">如何提问Q&amp;A？</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E5%9B%9E%E5%A4%8DQ-amp-A"><span class="nav-number">4.3.</span> <span class="nav-text">如何回复Q&amp;A?</span></a></li></ol></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E4%BA%9A%E9%A9%AC%E9%80%8A%E8%AF%84%E4%BB%B7%E7%B3%BB%E7%BB%9F"><span class="nav-number">5.</span> <span class="nav-text">亚马逊评价系统</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#Custom-Review-Product-Review"><span class="nav-number">5.1.</span> <span class="nav-text">Custom Review(Product Review)</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#FeedBack"><span class="nav-number">5.2.</span> <span class="nav-text">FeedBack</span></a></li></ol></li></ol></div>
-      </div>
-      <!--/noindex-->
-
-      <div class="site-overview-wrap sidebar-panel">
-        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-  <p class="site-author-name" itemprop="name">白苇杭</p>
-  <div class="site-description" itemprop="description">能与萧大侠一起喝酒撸串，该有多好！</div>
-</div>
-<div class="site-state-wrap motion-element">
-  <nav class="site-state">
-      <div class="site-state-item site-state-posts">
-          <a href="/archives/">
-        
-          <span class="site-state-item-count">16</span>
-          <span class="site-state-item-name">日志</span>
-        </a>
-      </div>
-      <div class="site-state-item site-state-categories">
-            <a href="/categories/">
-          
-        <span class="site-state-item-count">3</span>
-        <span class="site-state-item-name">分类</span></a>
-      </div>
-      <div class="site-state-item site-state-tags">
-            <a href="/tags/">
-          
-        <span class="site-state-item-count">8</span>
-        <span class="site-state-item-name">标签</span></a>
-      </div>
-  </nav>
-</div>
-  <div class="sidebar-button motion-element">
-    <a onclick="tidioChatApi.open();"><i class="fa fa-comments"></i>
-    Chat
-  </a>
-  </div>
-  <div class="links-of-author motion-element">
-      <span class="links-of-author-item">
-        <a href="mailto:hoosealy@gmail.com" title="E-Mail → mailto:hoosealy@gmail.com" rel="noopener" target="_blank"><i class="fa fa-envelope fa-fw"></i>E-Mail</a>
-      </span>
-  </div>
-
-
-
-      </div>
-
-    </div>
-  </aside>
-  <div id="sidebar-dimmer"></div>
-
-
       </div>
     </main>
 
@@ -493,7 +494,7 @@
   </span>
   <span class="author" itemprop="copyrightHolder">白苇杭</span>
 </div>
-  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://muse.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
+  <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://theme-next.js.org/muse/" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> 强力驱动
   </div>
 
         
@@ -510,33 +511,15 @@
   </div>
 
   
-  <script src="/lib/anime.min.js"></script>
-  <script src="/lib/velocity/velocity.min.js"></script>
-  <script src="/lib/velocity/velocity.ui.min.js"></script>
-
-<script src="/js/utils.js"></script>
-
-<script src="/js/motion.js"></script>
-
-
-<script src="/js/schemes/muse.js"></script>
-
-
-<script src="/js/next-boot.js"></script>
-
-<script src="/js/bookmark.js"></script>
-
-
-
+  <script src="//cdn.jsdelivr.net/npm/animejs@3.2.0/lib/anime.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script><script src="/js/schemes/muse.js"></script><script src="/js/next-boot.js"></script><script src="/js/bookmark.js"></script>
 
   
 
 
 
 
-  
-<script src="/js/local-search.js"></script>
-
+  <script src="/js/local-search.js"></script>
 
 
 
@@ -553,111 +536,6 @@
   
 
   
-
-
-<script>
-NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
-  NexT.utils.getScript('https://cdnjs.cloudflare.com/ajax/libs/valine/1.4.14/Valine.min.js', () => {
-    var GUEST = ['nick', 'mail', 'link'];
-    var guest = 'nick,mail,link';
-    guest = guest.split(',').filter(item => {
-      return GUEST.includes(item);
-    });
-    new Valine({
-      el         : '#valine-comments',
-      verify     : false,
-      notify     : false,
-      appId      : 'wvLxWO6YK4VRrOBFQnIGt88r-MdYXbMMI',
-      appKey     : 'LV37N2W65LnFad22uKChbjCf',
-      placeholder: "Just go go",
-      avatar     : 'mm',
-      meta       : guest,
-      pageSize   : '10' || 10,
-      visitor    : false,
-      lang       : 'zh-cn' || 'zh-cn',
-      path       : location.pathname,
-      recordIP   : false,
-      serverURLs : '',
-      enableQQ   : true,
-      requiredFields : ['nick','mail'],
-
-
-
-
-
-      emojiMaps: {
-      "xiaomai14" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai14%20.png",
-"xiaomai15" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai15%20.png",
-"xiaomai17" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai17%20.png",
-"xiaomai16" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai16%20.png",
-"xiaomai3"  : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai3%20.png",
-"xiaomai7"  : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai7%20.png",
-"xiaomai12" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai12%20.png",
-"xiaomai13" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai13%20.png",
-"xiaomai6" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai6%20.png",
-"xiaomai4" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai4%20.png",
-"xiaomai11" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai11%20.png",
-"xiaomai10" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai10%20.png",
-"xiaomai5" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai5%20.png",
-"xiaomai8" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai8%20.png",
-"xiaomai21" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai21%20.png",
-"xiaomai20" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai20%20.png",
-"xiaomai9" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai9%20.png",
-"xiaomai22" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai22%20.png",
-"xiaomai18" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai18%20.png",
-"xiaomai19" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/BENGHUAI/xiaomai19%20.png",
-"richang12" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang12%20.jpg",
-"richang6" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang6%20.jpg",
-"richang7" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang7%20.jpg",
-"richang13" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang13%20.jpg",
-"richang39" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang39%20.jpg",
-"richang11" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang11%20.jpg",
-"richang5" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang5%20.jpg",
-"richang4" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang4%20.jpg",
-"richang10" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang10%20.jpg",
-"richang38" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang38%20.jpg",
-"richang14" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang14%20.jpg",
-"richang28" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang28%20.jpg",
-"richang1" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang1%20.jpg",
-"richang29" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang29%20.jpg",
-"richang15" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang15%20.jpg",
-"richang17" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang17%20.jpg",
-"richang3" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang3%20.jpg",
-"richang2" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang2%20.jpg",
-"richang16" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang16%20.jpg",
-"richang42" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang42%20.jpg",
-"richang43" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang43%20.jpg",
-"richang41" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang41%20.jpg",
-"richang40" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang40%20.jpg",
-"richang33" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang33%20.jpg",
-"richang27" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang27%20.jpg",
-"richang26" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang26%20.jpg",
-"richang32" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang32%20.jpg",
-"richang18" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang18%20.jpg",
-"richang24" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang24%20.jpg",
-"richang30" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang30%20.jpg",
-"richang31" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang31%20.jpg",
-"richang25" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang25%20.jpg",
-"richang19" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang19%20.jpg",
-"richang21" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang21%20.jpg",
-"richang35" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang35%20.jpg",
-"richang9" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang9%20.jpg",
-"richang8" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang8%20.jpg",
-"richang34" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang34%20.jpg",
-"richang20" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang20%20.jpg",
-"richang36" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang36%20.jpg",
-"richang22" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang22%20.jpg",
-"richang23" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang23%20.jpg",
-"richang37" : "https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/日常/richang37%20.jpg"
-
-    } 
-
-
-
-      });
-  }, window.Valine);
-});
-</script>
 
 </body>
 </html>
