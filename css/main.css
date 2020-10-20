@@ -906,6 +906,12 @@ pre .javascript .function {
   margin-top: 60px;
   overflow: hidden;
 }
+.post-comments-count {
+  display: none;
+}
+.comments .vsys {
+  display: none;
+}
 .comment-button-group {
   display: flex;
   flex-wrap: wrap-reverse;
@@ -1215,7 +1221,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #26eecc;
+  background: #dffba7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
@@ -2298,15 +2304,6 @@ ul.breadcrumb li + li:last-child {
 .search-popup #no-result {
   color: #ccc;
   margin: auto;
-}
-.post-comments-count {
-  display: none;
-}
-.comments .vsys {
-  display: none;
-}
-.vsys {
-  display: none !important;
 }
 @media (max-width: 767px) {
   .header-inner,
