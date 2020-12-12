@@ -487,6 +487,16 @@
   
 
   
+  <script src="//cdn.jsdelivr.net/npm/quicklink@1/dist/quicklink.umd.js"></script>
+  <script>
+      window.addEventListener('load', () => {
+      quicklink({
+        timeout : 3000,
+        priority: true,
+        ignores : [uri => uri.includes('#'),uri => uri === 'https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/page/2/',]
+      });
+      });
+  </script>
 
 
 <script>
