@@ -663,13 +663,23 @@ NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
 </script>
 
 <script type="text/javascript">
-   fetch('https://v1.hitokoto.cn/?c=b')
+   fetch('https://v1.hitokoto.cn/?c=a')
     .then(response => response.json())
     .then(data => {
       document.getElementById("veditor").setAttribute("placeholder",data.hitokoto+"__"+data.from);
     })
     .catch(console.error)
 </script>
+
+<style>
+.v[data-class=v] .veditor {
+    background-image: url(https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/gtjx.GIF);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+</style>
+
 
 <script>
             window.imageLazyLoadSetting = {
