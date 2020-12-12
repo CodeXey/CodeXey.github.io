@@ -18,8 +18,8 @@
   
   <entry>
     <title>eBay的几种折扣方式</title>
-    <link href="https://ioser.io/pb/ebay-discount-market.html"/>
-    <id>https://ioser.io/pb/ebay-discount-market.html</id>
+    <link href="https://ioser.io/2020/11/28/ebay-discount-market.html/"/>
+    <id>https://ioser.io/2020/11/28/ebay-discount-market.html/</id>
     <published>2020-11-28T06:48:07.000Z</published>
     <updated>2020-12-09T04:09:37.927Z</updated>
     
@@ -41,8 +41,8 @@
   
   <entry>
     <title>20201016问题总结</title>
-    <link href="https://ioser.io/pb/20201016-questions.html"/>
-    <id>https://ioser.io/pb/20201016-questions.html</id>
+    <link href="https://ioser.io/2020/10/16/20201016-questions.html/"/>
+    <id>https://ioser.io/2020/10/16/20201016-questions.html/</id>
     <published>2020-10-16T05:54:00.000Z</published>
     <updated>2020-12-09T04:09:37.924Z</updated>
     
@@ -66,8 +66,8 @@
   
   <entry>
     <title>车水马龙的无人之境</title>
-    <link href="https://ioser.io/pb/secret-of-myself.html"/>
-    <id>https://ioser.io/pb/secret-of-myself.html</id>
+    <link href="https://ioser.io/2020/05/31/secret-of-myself.html/"/>
+    <id>https://ioser.io/2020/05/31/secret-of-myself.html/</id>
     <published>2020-05-31T13:38:53.000Z</published>
     <updated>2020-12-09T04:09:37.940Z</updated>
     
@@ -89,10 +89,10 @@
   
   <entry>
     <title>Lazada费用核算</title>
-    <link href="https://ioser.io/pb/lazada-fee-account.html"/>
-    <id>https://ioser.io/pb/lazada-fee-account.html</id>
+    <link href="https://ioser.io/2020/05/21/lazada-fee-account.html/"/>
+    <id>https://ioser.io/2020/05/21/lazada-fee-account.html/</id>
     <published>2020-05-21T09:28:39.000Z</published>
-    <updated>2020-12-09T04:09:37.925Z</updated>
+    <updated>2020-12-12T03:13:42.416Z</updated>
     
     <content type="html"><![CDATA[<h2 id="物流费用"><a href="#物流费用" class="headerlink" title="物流费用"></a>物流费用</h2><p>物流运费 = 国际运费+末端运费+税费等。<br>账单收入=（货款-商家商品优惠）- 佣金 – 支付手续费+ （消费者实付运费+平台运费补贴）-商家应付运费</p><ul><li>Shipping Fee (Paid By Customer)：消费者实际支付的末端运费</li><li>Auto. Shipping fee subsidy (by Lazada) ：Lazada运费补贴</li><li>Shipping Fee (Charged By 3P)：卖家物流成本，应付运费（国际+末端运费，ID/TH/MY/SG/VN通用，PH此处仅指国际段运费）</li><li>Shipping Fee Paid by Seller ：平台收取的末端运费（PH）【 原名称为Shipping Fee (Charged by Lazada)】<a id="more"></a></li></ul><h3 id="马来西亚"><a href="#马来西亚" class="headerlink" title="马来西亚"></a>马来西亚</h3><h4 id="国际运输-标准"><a href="#国际运输-标准" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是0.15MYR，每增加0.01kg，运费增加0.15</p><h4 id="末端费用-标准"><a href="#末端费用-标准" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><p>WM-KV地区 5.2/kg，其他地区6.0/kg</p><h3 id="新加坡"><a href="#新加坡" class="headerlink" title="新加坡"></a>新加坡</h3><h4 id="国际运输-标准-1"><a href="#国际运输-标准-1" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><table><thead><tr><th align="center">Kg</th><th align="center">SGD</th></tr></thead><tbody><tr><td align="center">0.1</td><td align="center">2.7</td></tr><tr><td align="center">0.2</td><td align="center">3.1</td></tr><tr><td align="center">0.3</td><td align="center">3.8</td></tr><tr><td align="center">0.4</td><td align="center">4.2</td></tr><tr><td align="center">0.5</td><td align="center">5.25</td></tr></tbody></table><h4 id="末端费用"><a href="#末端费用" class="headerlink" title="末端费用"></a>末端费用</h4><p>2.2/kg</p><h3 id="泰国"><a href="#泰国" class="headerlink" title="泰国"></a>泰国</h3><h4 id="国际运输-标准-2"><a href="#国际运输-标准-2" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是2THB，每增加0.01Kg,运费增加2THB</p><h4 id="末端费用-1"><a href="#末端费用-1" class="headerlink" title="末端费用"></a>末端费用</h4><p>0.01 – 0.5是一样的运费</p><table><thead><tr><th align="center">Weight</th><th align="center">Bangkok</th><th align="center">Upcountry Urban</th><th align="center">Upcountry Non Urban</th><th align="center">Western</th><th align="center">Remote</th></tr></thead><tbody><tr><td align="center">0.3</td><td align="center">24</td><td align="center">29</td><td align="center">33</td><td align="center">49</td><td align="center">204</td></tr></tbody></table><h3 id="越南"><a href="#越南" class="headerlink" title="越南"></a>越南</h3><h4 id="国际运输-标准-3"><a href="#国际运输-标准-3" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是838，每增加0.01Kg,运费增加837.5VND</p><h4 id="末端费用-标准-1"><a href="#末端费用-标准-1" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-05-21%20%E4%B8%8B%E5%8D%883.42.43%20.png" alt="屏幕快照2020-05-21下午3.42.43"></p><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><h4 id="国际运输-标准-4"><a href="#国际运输-标准-4" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是41PHP，每增加0.01Kg,运费增加5PHP</p><h4 id="末端费用-标准-2"><a href="#末端费用-标准-2" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><p>0.01 – 0.5是一样的运费计算</p><table><thead><tr><th align="center">Weight</th><th align="center">GMA</th><th align="center">Metro_LUZON</th><th align="center">LUZON</th><th align="center">Metro-Visayas</th><th align="center">Visayas</th><th align="center">Metro_MINDANO</th><th align="center">MINDANAO</th><th align="center">CRITICAL AReas</th></tr></thead><tbody><tr><td align="center">0.3</td><td align="center">50</td><td align="center">50</td><td align="center">65</td><td align="center">97</td><td align="center">121</td><td align="center">97</td><td align="center">136</td><td align="center">282</td></tr></tbody></table><h3 id="印尼"><a href="#印尼" class="headerlink" title="印尼"></a>印尼</h3><h4 id="国际运输-标准-5"><a href="#国际运输-标准-5" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5，0.01是5405IDR，每增加0.01kg，运费增加926IDR</p><h4 id="末端费用-标准-3"><a href="#末端费用-标准-3" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><table><thead><tr><th align="center">Weight</th><th align="center">IDR</th></tr></thead><tbody><tr><td align="center">0.11 — 0.25</td><td align="center">16000</td></tr><tr><td align="center">0.26–0.35</td><td align="center">21000</td></tr><tr><td align="center">0.36–0.4</td><td align="center">26000</td></tr><tr><td align="center">0.41–0.5</td><td align="center">39000</td></tr></tbody></table><h2 id="税费"><a href="#税费" class="headerlink" title="税费"></a>税费</h2><p><strong>X = 申报价格</strong></p><table><thead><tr><th align="center">国家</th><th align="center">征收比例</th></tr></thead><tbody><tr><td align="center">ID</td><td align="center">买家承担，X&gt;= 3USD，18.3%，X&lt;3，征收10%</td></tr><tr><td align="center">MY</td><td align="center">X&gt;= MYR 500，征收10%</td></tr><tr><td align="center">PH</td><td align="center">0</td></tr><tr><td align="center">SG</td><td align="center">X&gt;= SGD 400，征收7%</td></tr><tr><td align="center">TH</td><td align="center">X&gt;= THB1500，征收30%</td></tr><tr><td align="center">VN</td><td align="center">商品价格必须&lt;=VND 1000000  0%</td></tr></tbody></table><h2 id="佣金"><a href="#佣金" class="headerlink" title="佣金"></a>佣金</h2><p>佣金=（货款-商家商品优惠）x 佣金率 【适用PH】<br>佣金=（货款-商家商品优惠）x 佣金率 x （1+VAT税率）【适用其他5国】<br>佣金:4%。（在卖家中心–Profile–commission查看）<br>手续费: 2%。</p><table><thead><tr><th align="center"></th><th align="center">马来西亚</th><th align="center">新加坡</th><th align="center">泰国</th><th align="center">印尼</th><th align="center">菲律宾</th><th align="center">越南</th></tr></thead><tbody><tr><td align="center">税率(VAT)</td><td align="center">6%</td><td align="center">0%(免税)</td><td align="center">7%</td><td align="center">10%</td><td align="center">12%</td><td align="center">10%</td></tr><tr><td align="center">佣金率</td><td align="center">4%</td><td align="center">4%</td><td align="center">4%</td><td align="center">3.64%</td><td align="center">4%(已含税)</td><td align="center">4%</td></tr><tr><td align="center">佣金率(含税)</td><td align="center">4.24%</td><td align="center">4%</td><td align="center">4.28%</td><td align="center">4%</td><td align="center">4%(已含税)</td><td align="center">4.4%</td></tr></tbody></table><h2 id="Payment-Fee-支付手续费-含税"><a href="#Payment-Fee-支付手续费-含税" class="headerlink" title="Payment Fee:支付手续费(含税)"></a>Payment Fee:支付手续费(含税)</h2><p>支付手续费=（货款-商家商品优惠）x 支付手续费率 x （1+VAT税率） 【适用于ID 】<br>支付手续费=（货款-商家商品优惠+消费者实付运费）x 支付手续费率 x （1+VAT税率）【适用于其他国PH/TH/SG/MY/VN】</p><table><thead><tr><th align="center"></th><th align="center">马来西亚</th><th align="center">新加坡</th><th align="center">泰国</th><th align="center">印尼</th><th align="center">菲律宾</th><th align="center">越南</th></tr></thead><tbody><tr><td align="center">税率(VAT)</td><td align="center">6%</td><td align="center">0%(免税)</td><td align="center">7%</td><td align="center">10%</td><td align="center">12%</td><td align="center">10%</td></tr><tr><td align="center">支付手续费</td><td align="center">2%</td><td align="center">2%</td><td align="center">2%</td><td align="center">1.82</td><td align="center">2%</td><td align="center">3.84%</td></tr><tr><td align="center">支付手续费(含税)</td><td align="center">2.12%</td><td align="center">2%</td><td align="center">2.14%</td><td align="center">2.002%</td><td align="center">2.24%</td><td align="center">4.224%</td></tr></tbody></table>]]></content>
     
@@ -117,8 +117,8 @@
   
   <entry>
     <title>Lazada跨境物流服务</title>
-    <link href="https://ioser.io/pb/lazada-logistics-service.html"/>
-    <id>https://ioser.io/pb/lazada-logistics-service.html</id>
+    <link href="https://ioser.io/2020/04/23/lazada-logistics-service.html/"/>
+    <id>https://ioser.io/2020/04/23/lazada-logistics-service.html/</id>
     <published>2020-04-23T07:29:35.000Z</published>
     <updated>2020-12-09T04:09:37.926Z</updated>
     
@@ -150,8 +150,8 @@
   
   <entry>
     <title>产品类型和生命周期</title>
-    <link href="https://ioser.io/pb/type-of-products.html"/>
-    <id>https://ioser.io/pb/type-of-products.html</id>
+    <link href="https://ioser.io/2020/02/25/type-of-products.html/"/>
+    <id>https://ioser.io/2020/02/25/type-of-products.html/</id>
     <published>2020-02-25T10:55:50.000Z</published>
     <updated>2020-12-09T04:09:37.935Z</updated>
     
@@ -177,8 +177,8 @@
   
   <entry>
     <title>产品定价利润核算及FBA补货周期</title>
-    <link href="https://ioser.io/pb/priceing-of-listing.html"/>
-    <id>https://ioser.io/pb/priceing-of-listing.html</id>
+    <link href="https://ioser.io/2020/02/25/priceing-of-listing.html/"/>
+    <id>https://ioser.io/2020/02/25/priceing-of-listing.html/</id>
     <published>2020-02-25T08:07:26.000Z</published>
     <updated>2020-12-09T04:09:37.933Z</updated>
     
@@ -203,8 +203,8 @@
   
   <entry>
     <title>站外营销模式之社交媒体</title>
-    <link href="https://ioser.io/pb/outside-website-social.html"/>
-    <id>https://ioser.io/pb/outside-website-social.html</id>
+    <link href="https://ioser.io/2020/02/21/outside-website-social.html/"/>
+    <id>https://ioser.io/2020/02/21/outside-website-social.html/</id>
     <published>2020-02-21T13:20:00.000Z</published>
     <updated>2020-12-09T04:09:37.939Z</updated>
     
@@ -229,8 +229,8 @@
   
   <entry>
     <title>亚马逊如何上传产品</title>
-    <link href="https://ioser.io/pb/creat-listing-amazon.html"/>
-    <id>https://ioser.io/pb/creat-listing-amazon.html</id>
+    <link href="https://ioser.io/2020/02/07/creat-listing-amazon.html/"/>
+    <id>https://ioser.io/2020/02/07/creat-listing-amazon.html/</id>
     <published>2020-02-07T08:46:53.000Z</published>
     <updated>2020-12-09T04:09:37.931Z</updated>
     
@@ -256,8 +256,8 @@
   
   <entry>
     <title>亚马逊后台界面讲解</title>
-    <link href="https://ioser.io/pb/amazon-back-page.html"/>
-    <id>https://ioser.io/pb/amazon-back-page.html</id>
+    <link href="https://ioser.io/2020/02/06/amazon-back-page.html/"/>
+    <id>https://ioser.io/2020/02/06/amazon-back-page.html/</id>
     <published>2020-02-06T09:04:53.000Z</published>
     <updated>2020-12-09T04:09:37.931Z</updated>
     
@@ -282,8 +282,8 @@
   
   <entry>
     <title>亚马逊相关编码介绍</title>
-    <link href="https://ioser.io/pb/related-codes-amazon.html"/>
-    <id>https://ioser.io/pb/related-codes-amazon.html</id>
+    <link href="https://ioser.io/2020/02/05/related-codes-amazon.html/"/>
+    <id>https://ioser.io/2020/02/05/related-codes-amazon.html/</id>
     <published>2020-02-05T11:54:18.000Z</published>
     <updated>2020-12-09T04:09:37.933Z</updated>
     
@@ -309,10 +309,10 @@
   
   <entry>
     <title>产品的五要素</title>
-    <link href="https://ioser.io/pb/elements-of-listing.html"/>
-    <id>https://ioser.io/pb/elements-of-listing.html</id>
+    <link href="https://ioser.io/2020/02/05/elements-of-listing.html/"/>
+    <id>https://ioser.io/2020/02/05/elements-of-listing.html/</id>
     <published>2020-02-05T08:59:33.000Z</published>
-    <updated>2020-12-09T04:09:37.934Z</updated>
+    <updated>2020-12-12T03:13:22.995Z</updated>
     
     <content type="html"><![CDATA[<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p><strong>标题是最重要的关键词。</strong><br><strong>好的标题需要包含产品相关信息的同时，能让客户不用再看其他任何产品信息就可以产生正确的购买行为。</strong></p><a id="more"></a><h4 id="符合排版，六大必备要素"><a href="#符合排版，六大必备要素" class="headerlink" title="符合排版，六大必备要素"></a>符合排版，六大必备要素</h4><p><strong>品牌+产品型号/系列+材料/关键词+颜色+尺寸+包装/数量，关键信息尽量提现</strong></p><ul><li>品牌(第一位)</li><li>商品描述，表达产品的关键信息</li><li>商品系列或者型号(非必要)</li><li>颜色</li><li>尺寸</li><li>数量</li></ul><h4 id="标题注意事项"><a href="#标题注意事项" class="headerlink" title="标题注意事项"></a>标题注意事项</h4><ul><li>勿放虚假的产品标题提升搜索，就算搜索到，转化率也不见得会高。</li><li>不要写别人的品牌名，有<strong>侵权</strong>的危险，建议申请自己的品牌商标。</li><li>勿塞过多的字，杂乱的标题会让买家不信任，重在给消费者传达正确的信息。</li><li>除and, or, the, with, for, a, an之类的介词外，单词首字母大写。</li><li>合乎语法，80个字符最佳，不要出现拼写错误的低级错误。(跟类目，阅读体验和移动端展示效果相关。)</li><li>listing一旦上传，<strong>所有权不再是卖家</strong>。如果listing上架后表现稳定，无法修改编辑(3个月后回收编辑权)，需要修改的话请开case联系亚马逊客服。</li></ul><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><strong>图片制作时注意不要出现侵权的情况。</strong></p><h4 id="主图要求"><a href="#主图要求" class="headerlink" title="主图要求"></a>主图要求</h4><ul><li>主图背景必须纯白色(搜索界面和详情界面展示的主图背景都是纯白色，RGB:255, 255, 255)。</li><li>主图不能是绘图或者插图，不能包含时既不在订单内的配件、道具。</li><li>不能带logo或者水印(产品本身自带的logo是允许的)。</li><li>产品最好占据图片85%左右的空间。</li><li>产品在图片中清晰可见，如果有模特，那么模特不能是坐姿，最好是站姿。</li><li>如果使用模特就用真人模特，不能使用服装店里的那种模型模特。</li><li>不能包含裸露信息。</li></ul><h4 id="辅图要求"><a href="#辅图要求" class="headerlink" title="辅图要求"></a>辅图要求</h4><ul><li>辅图应该对产品做不同侧面的展示，对产品使用的展示，或对在主图中没凸显出来的产品特性做补充。</li><li>一个listing中最多可以添加8张辅图。</li><li>最好和主图一样纯白北京，不做强制要求。</li><li>不能带logo或者水印(产品本身自带的logo是允许的)。</li><li>产品在图片中清晰可见，如果有模特，那么模特不能是坐姿，最好是站姿。</li><li>如果使用模特就用真人模特，不能使用服装店里的那种模型模特。</li><li>不能包含裸露信息。</li></ul><h4 id="图片尺寸要求"><a href="#图片尺寸要求" class="headerlink" title="图片尺寸要求"></a>图片尺寸要求</h4><ul><li>图片任意一边大于1000像素时，该图片就会有“zoom function”图片放大功能。(“zoom function”被亚马逊证明对产品提高销量有一定帮助。)</li><li>图片的最小边如果小于500像素，上传时会被亚马逊拒绝。</li></ul><h4 id="图片格式要求"><a href="#图片格式要求" class="headerlink" title="图片格式要求"></a>图片格式要求</h4><p>JPEG, TIFF, GIF等。(推荐JPEG格式，上传速度最快。)</p><h3 id="五行描述-Bullet-Point"><a href="#五行描述-Bullet-Point" class="headerlink" title="五行描述(Bullet Point)"></a>五行描述(Bullet Point)</h3><p><strong>位置显眼，体现消费者最关心的信息，帮助客户快速阅读和理解产品。</strong></p><h4 id="怎么写五行描述？"><a href="#怎么写五行描述？" class="headerlink" title="怎么写五行描述？"></a>怎么写五行描述？</h4><ul><li>简明扼要，在语句通顺的前提下部署少量关键词(可以被搜索到，一般写两到三个)。</li><li>表达两点。五行关键点要包括产品、原材料尺寸、功能、特点、又是、包装、用途、保修，将消费者关心的点写出来。</li><li>排版整齐，要有美感。短句排在前面，长句排在后面。思考客户最疑虑的部分，重点解释，描述清楚。</li><li>使用特殊标点符号。</li></ul><h3 id="详情描述"><a href="#详情描述" class="headerlink" title="详情描述"></a>详情描述</h3><ul><li>最多2000字符。</li><li>可以作为对五行描述的升级和补充。</li></ul><h3 id="search-terms-关键词，Keywords"><a href="#search-terms-关键词，Keywords" class="headerlink" title="search terms(关键词，Keywords)"></a>search terms(关键词，Keywords)</h3><p><strong>权重仅次于标题。</strong></p><h4 id="怎么写关键词？"><a href="#怎么写关键词？" class="headerlink" title="怎么写关键词？"></a>怎么写关键词？</h4><ul><li>search terms最大容纳250个字符，超出部分会被系统忽略。</li><li>关键词以单词为单位，不能识别词组，都好或者其他标点符号影响亚马逊对search terms的搜索和抓取。</li><li>重复单词没有意义，没必要叠加关键词。</li><li>尽量多包含一些词语(精准关键词、宽泛关键词、长尾关键词、趋势性词语)。</li></ul><h4 id="怎么获取产品相关的关键词"><a href="#怎么获取产品相关的关键词" class="headerlink" title="怎么获取产品相关的关键词?"></a>怎么获取产品相关的关键词?</h4><ul><li>亚马逊搜索下拉框(站内热搜词可以作为关键词参考)。</li><li>看竞品的标题和描述使用了什么关键词。(搜索best seller，可以借用其标题的重点搜索词)</li><li>看客户在用什么关键词(review, Q&amp;A)。</li><li>相关关键词工具。</li><li>PPC关键词。</li></ul>]]></content>
     
@@ -332,8 +332,8 @@
   
   <entry>
     <title>listing页面详解</title>
-    <link href="https://ioser.io/pb/listing-frontpage-detailed.html"/>
-    <id>https://ioser.io/pb/listing-frontpage-detailed.html</id>
+    <link href="https://ioser.io/2020/02/04/listing-frontpage-detailed.html/"/>
+    <id>https://ioser.io/2020/02/04/listing-frontpage-detailed.html/</id>
     <published>2020-02-04T10:59:10.000Z</published>
     <updated>2020-12-09T04:09:37.926Z</updated>
     
@@ -360,8 +360,8 @@
   
   <entry>
     <title>亚马逊前台界面讲解</title>
-    <link href="https://ioser.io/pb/amazon-front-page.html"/>
-    <id>https://ioser.io/pb/amazon-front-page.html</id>
+    <link href="https://ioser.io/2020/02/04/amazon-front-page.html/"/>
+    <id>https://ioser.io/2020/02/04/amazon-front-page.html/</id>
     <published>2020-02-04T10:57:38.000Z</published>
     <updated>2020-12-09T04:09:37.929Z</updated>
     
@@ -388,8 +388,8 @@
   
   <entry>
     <title>亚马逊关联风险</title>
-    <link href="https://ioser.io/pb/amazon-matters-need-attention.html"/>
-    <id>https://ioser.io/pb/amazon-matters-need-attention.html</id>
+    <link href="https://ioser.io/2020/02/04/amazon-matters-need-attention.html/"/>
+    <id>https://ioser.io/2020/02/04/amazon-matters-need-attention.html/</id>
     <published>2020-02-04T10:55:33.000Z</published>
     <updated>2020-12-09T04:09:37.928Z</updated>
     
@@ -414,8 +414,8 @@
   
   <entry>
     <title>亚马逊新卖家注意：新入场亚马逊这些红线不要踩！</title>
-    <link href="https://ioser.io/pb/amazon-new-user-danger.html"/>
-    <id>https://ioser.io/pb/amazon-new-user-danger.html</id>
+    <link href="https://ioser.io/2019/12/24/amazon-new-user-danger.html/"/>
+    <id>https://ioser.io/2019/12/24/amazon-new-user-danger.html/</id>
     <published>2019-12-24T05:22:56.000Z</published>
     <updated>2020-12-09T04:09:37.932Z</updated>
     
@@ -437,8 +437,8 @@
   
   <entry>
     <title>归园草</title>
-    <link href="https://ioser.io/pb/some-essay-poetry-old.html"/>
-    <id>https://ioser.io/pb/some-essay-poetry-old.html</id>
+    <link href="https://ioser.io/2011/02/23/some-essay-poetry-old.html/"/>
+    <id>https://ioser.io/2011/02/23/some-essay-poetry-old.html/</id>
     <published>2011-02-23T09:23:27.000Z</published>
     <updated>2020-12-09T04:09:37.938Z</updated>
     
@@ -467,8 +467,8 @@
   
   <entry>
     <title>曝书留痕</title>
-    <link href="https://ioser.io/pb/feeling-of-reading.html"/>
-    <id>https://ioser.io/pb/feeling-of-reading.html</id>
+    <link href="https://ioser.io/2011/02/06/feeling-of-reading.html/"/>
+    <id>https://ioser.io/2011/02/06/feeling-of-reading.html/</id>
     <published>2011-02-06T09:19:57.000Z</published>
     <updated>2020-12-09T04:09:37.938Z</updated>
     
@@ -490,8 +490,8 @@
   
   <entry>
     <title>〇1</title>
-    <link href="https://ioser.io/pb/open-to-ending.html"/>
-    <id>https://ioser.io/pb/open-to-ending.html</id>
+    <link href="https://ioser.io/2008/09/16/open-to-ending.html/"/>
+    <id>https://ioser.io/2008/09/16/open-to-ending.html/</id>
     <published>2008-09-16T09:13:38.000Z</published>
     <updated>2020-12-09T04:09:37.935Z</updated>
     
