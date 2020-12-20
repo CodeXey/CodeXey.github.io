@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<%- partial('_partial/head') %>
+
+<body>
+    <%- partial('_partial/header') %>
+    <%- partial('script/disqus') %>
+    
+    <main class="main">
+        <%- body %>
+
+    </main>
+    <%- partial('_partial/license') %>
+
+</body>
+
+</html>
