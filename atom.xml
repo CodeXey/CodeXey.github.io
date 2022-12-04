@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>进击的小白</title>
+  
+  <subtitle>你打开那一扇窗，就会看到那样的风景。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://ioser.io/"/>
+  <updated>2021-02-04T05:49:03.829Z</updated>
+  <id>https://ioser.io/</id>
+  
+  <author>
+    <name>白苇杭</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习编程资源收集</title>
+    <link href="https://ioser.io/pb/learning-resource.html"/>
+    <id>https://ioser.io/pb/learning-resource.html</id>
+    <published>2021-01-30T11:12:42.000Z</published>
+    <updated>2021-02-04T05:49:03.829Z</updated>
+    
+    <content type="html"><![CDATA[<p><strong>整理于2017年，当时仅用作自己学习资料备份，有点老旧，欢迎提交，不再主动更新，仅作参考，自行斟酌选择。</strong><br>发现一个不错的站点–<a href="https://www.axihe.com/">阿西河</a>，教程非常多。</p><a id="more"></a><h4 id="完整教程"><a href="#完整教程" class="headerlink" title="完整教程"></a>完整教程</h4><ul><li><a href="https://github.com/judasn/IntelliJ-IDEA-Tutorial">IntelliJ IDEA 简体中文专题教程</a></li><li><a href="https://github.com/Unknwon/the-way-to-go_ZH_CN">Go入门指南</a></li><li><a href="https://github.com/warmheartli/MachineLearningCourse">机器学习精简入门</a></li><li><a href="http://hukai.me/android-training-course-in-chinese/index.html">Android官方培训课程中文版</a></li><li><a href="https://github.com/alsotang/node-lessons">Node.js包教不包会</a></li><li><a href="https://github.com/nswbmw/N-blog">一起学Node.js</a></li><li><a href="https://github.com/xirong/my-git">Git学习资源</a></li><li><a href="https://github.com/phodal/github-roam">Github漫游指南</a>    </li></ul><h4 id="iOS-macOS学习资源"><a href="#iOS-macOS学习资源" class="headerlink" title="iOS/macOS学习资源"></a>iOS/macOS学习资源</h4><ul><li><a href="https://github.com/shiyuan17/openDoc">网友整理的iOS资源大全</a></li><li><a href="https://github.com/DeveloperLx/macOS_Development_Tutorials_translation">macOS开发教程翻译</a></li><li><a href="https://github.com/nixzhu/dev-blog">iOS/web开发一些相关文章</a></li><li><a href="https://github.com/CoderShmily/iOS-Note">iOS笔记</a></li><li><a href="https://github.com/YouXianMing/iOS-Design-Patterns">iOS-DesignPatterns</a></li><li><a href="https://github.com/nst/RuntimeBrowser">RuntimeBrowser</a></li><li><a href="https://github.com/Aufree/trip-to-iOS">iOS 学习资料整理</a></li><li><a href="https://github.com/tangqiaoboy/iOSBlogCN">唐巧整理的中文 iOS/Mac 开发博客列表</a></li><li><a href="https://github.com/iamjiyixuan/iOSDevRef">iOS开发参考资料</a></li><li><a href="https://github.com/ipader/SwiftGuide">Swift 语言指南</a></li></ul><h4 id="资源汇总"><a href="#资源汇总" class="headerlink" title="资源汇总"></a>资源汇总</h4><ul><li><a href="https://github.com/justjavac/Programming-Alpha-To-Omega">从零开始学编程资料汇总</a></li><li><a href="https://github.com/justjavac/awesome-wechat-weapp">微信小程序开发资源汇总</a></li><li><a href="https://github.com/justjavac/awesome-awesomeness-zh_CN">一份关于“资料汇总”的汇总</a></li></ul><blockquote><p>伯乐在线整理 </p></blockquote><ul><li><a href="https://github.com/jobbole/awesome-java-cn">java资源大全</a></li><li><a href="https://github.com/jobbole/awesome-python-cn">python资源大全</a></li><li><a href="https://github.com/jobbole/awesome-javascript-cn">javascript资源大全</a></li><li><a href="https://github.com/jobbole/awesome-css-cn">CSS 资源大全中文版</a></li><li><a href="https://github.com/jobbole/awesome-ios-cn">iOS资源大全中文版</a></li><li><a href="https://github.com/jobbole/awesome-android-cn">Android 资源大全</a></li><li><a href="https://github.com/jobbole/awesome-c-cn">C 语言资源</a></li><li><a href="https://github.com/jobbole/awesome-cpp-cn">C++资源大全</a></li><li><a href="https://github.com/jobbole/awesome-dotnet-cn">.Net资源大全</a></li><li><a href="https://github.com/jobbole/awesome-php-cn">Php资源大全</a></li><li><a href="https://github.com/jobbole/awesome-mysql-cn">MySql资源大全</a></li><li><a href="https://github.com/jobbole/awesome-mysql-cn">机器学习资源大全</a></li></ul><h4 id="编程规范"><a href="#编程规范" class="headerlink" title="编程规范"></a>编程规范</h4><ul><li><a href="https://github.com/oa414/objc-zen-book-cn">禅与 Objective-C 编程艺术</a></li><li><a href="https://github.com/google/styleguide">Google Style Guides</a></li><li><a href="http://jsonapi.org.cn">用 JSON 构建 API 的标准指南</a></li></ul><h4 id="Other"><a href="#Other" class="headerlink" title="Other"></a>Other</h4><ul><li><a href="https://github.com/racaljk/hosts">最新可用的google hosts文件</a></li><li><a href="https://github.com/mymmsc/books">常用书籍</a> </li><li><a href="https://github.com/justjavac/free-programming-books-zh_CN">免费的编程书籍索引</a></li><li><a href="https://www.liaoxuefeng.com">廖雪峰的官方网站</a></li><li><a href="http://www.w3school.com.cn">w3school</a></li><li><a href="http://www.runoob.com">runoob</a></li><li><a href="https://www.websiteplanet.com/blog/html-guide-beginners/">免费学HTML</a> 感谢<a href="mailto:&#118;&#x69;&#x72;&#103;&#105;&#110;&#x69;&#97;&#108;&#97;&#x6d;&#101;&#x64;&#x61;&#x6d;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;">&#118;&#x69;&#x72;&#103;&#105;&#110;&#x69;&#97;&#108;&#97;&#x6d;&#101;&#x64;&#x61;&#x6d;&#64;&#103;&#109;&#97;&#105;&#108;&#x2e;&#x63;&#111;&#109;</a></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;整理于2017年，当时仅用作自己学习资料备份，有点老旧，欢迎提交，不再主动更新，仅作参考，自行斟酌选择。&lt;/strong&gt;&lt;br&gt;发现一个不错的站点–&lt;a href=&quot;https://www.axihe.com/&quot;&gt;阿西河&lt;/a&gt;，教程非常多。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="编程" scheme="https://ioser.io/categories/%E7%BC%96%E7%A8%8B/"/>
+    
+    
+      <category term="编程资料" scheme="https://ioser.io/tags/%E7%BC%96%E7%A8%8B%E8%B5%84%E6%96%99/"/>
+    
+      <category term="Github" scheme="https://ioser.io/tags/Github/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>2020/12/12更新日志</title>
+    <link href="https://ioser.io/pb/2020-12-12-update.html"/>
+    <id>https://ioser.io/pb/2020-12-12-update.html</id>
+    <published>2020-12-12T13:40:02.000Z</published>
+    <updated>2020-12-19T09:02:01.671Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="今日份更新"><a href="#今日份更新" class="headerlink" title="今日份更新"></a>今日份更新</h2><ol><li>增加留言板背景图</li><li>优化留言板表情显示</li><li>留言板增加一言</li><li>替换图片懒加载占位图</li><li>增加404页面</li><li>增加置顶</li><li>开启quicklink</li><li>优化文章目录跳转</li></ol><h2 id="TODO"><a href="#TODO" class="headerlink" title="TODO"></a>TODO</h2><ul><li>文章加密</li><li>修复主页显示位置不准确问题</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;今日份更新&quot;&gt;&lt;a href=&quot;#今日份更新&quot; class=&quot;headerlink&quot; title=&quot;今日份更新&quot;&gt;&lt;/a&gt;今日份更新&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;增加留言板背景图&lt;/li&gt;
+&lt;li&gt;优化留言板表情显示&lt;/li&gt;
+&lt;li&gt;留言板增加一言&lt;/li&gt;
+&lt;l
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://ioser.io/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://ioser.io/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>eBay的几种折扣方式</title>
+    <link href="https://ioser.io/pb/ebay-discount-market.html"/>
+    <id>https://ioser.io/pb/ebay-discount-market.html</id>
+    <published>2020-11-28T06:48:07.000Z</published>
+    <updated>2020-12-09T04:09:37.927Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Sales-event-markdown"><a href="#Sales-event-markdown" class="headerlink" title="Sales event+markdown"></a>Sales event+markdown</h2><p>这是最直接的促销方法，使用最广泛，直接在原价基础上进行降价。在首页搜索时，该折扣可以看到原价和折扣价。有助于改善 listing的转化率。</p><a id="more"></a><h2 id="Order-discount"><a href="#Order-discount" class="headerlink" title="Order discount"></a>Order discount</h2><p>这也是一个打折活动，不过和 markdown有很大不同。order discount的折扣活动在搜索结果页上看不到，只有进入产品详细信息中才能看到该活动。此活动最大的作用是绑定不同的产品，如用爆款产品带动新产品销售或清仓，另外在一些促销节日，如 Black Friday也可以设置此活动进行促销。</p><h2 id="No-minimum-purchase-Extra-off"><a href="#No-minimum-purchase-Extra-off" class="headerlink" title="No minimum purchase: Extra $ off"></a>No minimum purchase: Extra $ off</h2><p>最终的效果与 markdown相似，但搜索页面显示的价格仍然是原价。只有进入 listing才能看到打折优惠信息。所以不推荐使用这种方法，对产品转化率没有帮助。</p><h2 id="Volume-pricing"><a href="#Volume-pricing" class="headerlink" title="Volume pricing"></a>Volume pricing</h2><p>这次打折活动刚刚在18年底才开始，与 order discount类似，都是购买多件打折商品，不同之处在于：仅适用于单个 SKU，仅适用于当前的 listing，无法在多个产品间享受此折扣。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;Sales-event-markdown&quot;&gt;&lt;a href=&quot;#Sales-event-markdown&quot; class=&quot;headerlink&quot; title=&quot;Sales event+markdown&quot;&gt;&lt;/a&gt;Sales event+markdown&lt;/h2&gt;&lt;p&gt;这是最直接的促销方法，使用最广泛，直接在原价基础上进行降价。在首页搜索时，该折扣可以看到原价和折扣价。有助于改善 listing的转化率。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="eBay" scheme="https://ioser.io/tags/eBay/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lazada费用核算</title>
+    <link href="https://ioser.io/pb/lazada-fee-account.html"/>
+    <id>https://ioser.io/pb/lazada-fee-account.html</id>
+    <published>2020-05-21T09:28:39.000Z</published>
+    <updated>2020-12-12T13:19:30.425Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="物流费用"><a href="#物流费用" class="headerlink" title="物流费用"></a>物流费用</h2><p>物流运费 = 国际运费+末端运费+税费等。<br>账单收入=（货款-商家商品优惠）- 佣金 – 支付手续费+ （消费者实付运费+平台运费补贴）-商家应付运费</p><ul><li>Shipping Fee (Paid By Customer)：消费者实际支付的末端运费</li><li>Auto. Shipping fee subsidy (by Lazada) ：Lazada运费补贴</li><li>Shipping Fee (Charged By 3P)：卖家物流成本，应付运费（国际+末端运费，ID/TH/MY/SG/VN通用，PH此处仅指国际段运费）</li><li>Shipping Fee Paid by Seller ：平台收取的末端运费（PH）【 原名称为Shipping Fee (Charged by Lazada)】<a id="more"></a></li></ul><h3 id="马来西亚"><a href="#马来西亚" class="headerlink" title="马来西亚"></a>马来西亚</h3><h4 id="国际运输-标准"><a href="#国际运输-标准" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是0.15MYR，每增加0.01kg，运费增加0.15</p><h4 id="末端费用-标准"><a href="#末端费用-标准" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><p>WM-KV地区 5.2/kg，其他地区6.0/kg</p><h3 id="新加坡"><a href="#新加坡" class="headerlink" title="新加坡"></a>新加坡</h3><h4 id="国际运输-标准-1"><a href="#国际运输-标准-1" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><table><thead><tr><th align="center">Kg</th><th align="center">SGD</th></tr></thead><tbody><tr><td align="center">0.1</td><td align="center">2.7</td></tr><tr><td align="center">0.2</td><td align="center">3.1</td></tr><tr><td align="center">0.3</td><td align="center">3.8</td></tr><tr><td align="center">0.4</td><td align="center">4.2</td></tr><tr><td align="center">0.5</td><td align="center">5.25</td></tr></tbody></table><h4 id="末端费用"><a href="#末端费用" class="headerlink" title="末端费用"></a>末端费用</h4><p>2.2/kg</p><h3 id="泰国"><a href="#泰国" class="headerlink" title="泰国"></a>泰国</h3><h4 id="国际运输-标准-2"><a href="#国际运输-标准-2" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是2THB，每增加0.01Kg,运费增加2THB</p><h4 id="末端费用-1"><a href="#末端费用-1" class="headerlink" title="末端费用"></a>末端费用</h4><p>0.01 – 0.5是一样的运费</p><table><thead><tr><th align="center">Weight</th><th align="center">Bangkok</th><th align="center">Upcountry Urban</th><th align="center">Upcountry Non Urban</th><th align="center">Western</th><th align="center">Remote</th></tr></thead><tbody><tr><td align="center">0.3</td><td align="center">24</td><td align="center">29</td><td align="center">33</td><td align="center">49</td><td align="center">204</td></tr></tbody></table><h3 id="越南"><a href="#越南" class="headerlink" title="越南"></a>越南</h3><h4 id="国际运输-标准-3"><a href="#国际运输-标准-3" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是838，每增加0.01Kg,运费增加837.5VND</p><h4 id="末端费用-标准-1"><a href="#末端费用-标准-1" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-05-21%20%E4%B8%8B%E5%8D%883.42.43%20.png" alt="屏幕快照2020-05-21下午3.42.43"></p><h3 id="菲律宾"><a href="#菲律宾" class="headerlink" title="菲律宾"></a>菲律宾</h3><h4 id="国际运输-标准-4"><a href="#国际运输-标准-4" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5kg，0.01运费是41PHP，每增加0.01Kg,运费增加5PHP</p><h4 id="末端费用-标准-2"><a href="#末端费用-标准-2" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><p>0.01 – 0.5是一样的运费计算</p><table><thead><tr><th align="center">Weight</th><th align="center">GMA</th><th align="center">Metro_LUZON</th><th align="center">LUZON</th><th align="center">Metro-Visayas</th><th align="center">Visayas</th><th align="center">Metro_MINDANO</th><th align="center">MINDANAO</th><th align="center">CRITICAL AReas</th></tr></thead><tbody><tr><td align="center">0.3</td><td align="center">50</td><td align="center">50</td><td align="center">65</td><td align="center">97</td><td align="center">121</td><td align="center">97</td><td align="center">136</td><td align="center">282</td></tr></tbody></table><h3 id="印尼"><a href="#印尼" class="headerlink" title="印尼"></a>印尼</h3><h4 id="国际运输-标准-5"><a href="#国际运输-标准-5" class="headerlink" title="国际运输(标准)"></a>国际运输(标准)</h4><p>0.01–0.5，0.01是5405IDR，每增加0.01kg，运费增加926IDR</p><h4 id="末端费用-标准-3"><a href="#末端费用-标准-3" class="headerlink" title="末端费用(标准)"></a>末端费用(标准)</h4><table><thead><tr><th align="center">Weight</th><th align="center">IDR</th></tr></thead><tbody><tr><td align="center">0.11 — 0.25</td><td align="center">16000</td></tr><tr><td align="center">0.26–0.35</td><td align="center">21000</td></tr><tr><td align="center">0.36–0.4</td><td align="center">26000</td></tr><tr><td align="center">0.41–0.5</td><td align="center">39000</td></tr></tbody></table><h2 id="税费"><a href="#税费" class="headerlink" title="税费"></a>税费</h2><p><strong>X = 申报价格</strong></p><table><thead><tr><th align="center">国家</th><th align="center">征收比例</th></tr></thead><tbody><tr><td align="center">ID</td><td align="center">买家承担，X&gt;= 3USD，18.3%，X&lt;3，征收10%</td></tr><tr><td align="center">MY</td><td align="center">X&gt;= MYR 500，征收10%</td></tr><tr><td align="center">PH</td><td align="center">0</td></tr><tr><td align="center">SG</td><td align="center">X&gt;= SGD 400，征收7%</td></tr><tr><td align="center">TH</td><td align="center">X&gt;= THB1500，征收30%</td></tr><tr><td align="center">VN</td><td align="center">商品价格必须&lt;=VND 1000000  0%</td></tr></tbody></table><h2 id="佣金"><a href="#佣金" class="headerlink" title="佣金"></a>佣金</h2><p>佣金=（货款-商家商品优惠）x 佣金率 【适用PH】<br>佣金=（货款-商家商品优惠）x 佣金率 x （1+VAT税率）【适用其他5国】<br>佣金:4%。（在卖家中心–Profile–commission查看）<br>手续费: 2%。</p><table><thead><tr><th align="center"></th><th align="center">马来西亚</th><th align="center">新加坡</th><th align="center">泰国</th><th align="center">印尼</th><th align="center">菲律宾</th><th align="center">越南</th></tr></thead><tbody><tr><td align="center">税率(VAT)</td><td align="center">6%</td><td align="center">0%(免税)</td><td align="center">7%</td><td align="center">10%</td><td align="center">12%</td><td align="center">10%</td></tr><tr><td align="center">佣金率</td><td align="center">4%</td><td align="center">4%</td><td align="center">4%</td><td align="center">3.64%</td><td align="center">4%(已含税)</td><td align="center">4%</td></tr><tr><td align="center">佣金率(含税)</td><td align="center">4.24%</td><td align="center">4%</td><td align="center">4.28%</td><td align="center">4%</td><td align="center">4%(已含税)</td><td align="center">4.4%</td></tr></tbody></table><h2 id="Payment-Fee-支付手续费-含税"><a href="#Payment-Fee-支付手续费-含税" class="headerlink" title="Payment Fee:支付手续费(含税)"></a>Payment Fee:支付手续费(含税)</h2><p>支付手续费=（货款-商家商品优惠）x 支付手续费率 x （1+VAT税率） 【适用于ID 】<br>支付手续费=（货款-商家商品优惠+消费者实付运费）x 支付手续费率 x （1+VAT税率）【适用于其他国PH/TH/SG/MY/VN】</p><table><thead><tr><th align="center"></th><th align="center">马来西亚</th><th align="center">新加坡</th><th align="center">泰国</th><th align="center">印尼</th><th align="center">菲律宾</th><th align="center">越南</th></tr></thead><tbody><tr><td align="center">税率(VAT)</td><td align="center">6%</td><td align="center">0%(免税)</td><td align="center">7%</td><td align="center">10%</td><td align="center">12%</td><td align="center">10%</td></tr><tr><td align="center">支付手续费</td><td align="center">2%</td><td align="center">2%</td><td align="center">2%</td><td align="center">1.82</td><td align="center">2%</td><td align="center">3.84%</td></tr><tr><td align="center">支付手续费(含税)</td><td align="center">2.12%</td><td align="center">2%</td><td align="center">2.14%</td><td align="center">2.002%</td><td align="center">2.24%</td><td align="center">4.224%</td></tr></tbody></table>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;物流费用&quot;&gt;&lt;a href=&quot;#物流费用&quot; class=&quot;headerlink&quot; title=&quot;物流费用&quot;&gt;&lt;/a&gt;物流费用&lt;/h2&gt;&lt;p&gt;物流运费 = 国际运费+末端运费+税费等。&lt;br&gt;账单收入=（货款-商家商品优惠）- 佣金 – 支付手续费+ （消费者实付运费+平台运费补贴）-商家应付运费&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Shipping Fee (Paid By Customer)：消费者实际支付的末端运费&lt;/li&gt;
+&lt;li&gt;Auto. Shipping fee subsidy (by Lazada) ：Lazada运费补贴&lt;/li&gt;
+&lt;li&gt;Shipping Fee (Charged By 3P)：卖家物流成本，应付运费（国际+末端运费，ID/TH/MY/SG/VN通用，PH此处仅指国际段运费）&lt;/li&gt;
+&lt;li&gt;Shipping Fee Paid by Seller ：平台收取的末端运费（PH）【 原名称为Shipping Fee (Charged by Lazada)】
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="Lazada" scheme="https://ioser.io/tags/Lazada/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Lazada跨境物流服务</title>
+    <link href="https://ioser.io/pb/lazada-logistics-service.html"/>
+    <id>https://ioser.io/pb/lazada-logistics-service.html</id>
+    <published>2020-04-23T07:29:35.000Z</published>
+    <updated>2020-12-09T04:09:37.926Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="为什么选择LGS"><a href="#为什么选择LGS" class="headerlink" title="为什么选择LGS"></a>为什么选择LGS</h2><p><strong>使用LGS的优势</strong></p><ul><li>每日直接寄送至东南亚，大幅度缩短派送时效。</li><li>通过集运及当地物流运送，可降低运送收费率。</li><li>通过发货及收货地的内部分拣管理机构，可提升对交货及物流分载的掌控度。</li><li>采用模块方式，可更灵活且大规模的管理不同合作伙伴，以及对高低峰及其他未知情况。</li></ul><a id="more"></a><p><strong>LGS对销量的影响</strong><br>降低订单取消率及包裹丢失</p><ul><li>更高的派送成功率</li><li>更低的订单取消率/派送失败率</li></ul><p><strong>有助于销量增长</strong></p><ul><li>缩短交货时间，提高客户满意度(NPS)及运营评分</li><li>顾客可通过“寄送时间”进行过滤，产品交付时间越短，可视性越高</li><li>使用LGS的卖家可参加特定促销，如限时促销等</li></ul><h2 id="LGS概述"><a href="#LGS概述" class="headerlink" title="LGS概述"></a>LGS概述</h2><p><strong>点对点物流服务，全程轻松掌控。</strong><br><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/Xnip2020-04-23_14-07-18%20.jpg" alt="Xnip2020-04-23_14-07-18"></p><ul><li>分拣空心扫描到不符合要求的包裹将退回卖家。</li><li>香港分拣中心不提供越南发货。</li></ul><p><strong>物流方案概述</strong><br><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/Xnip2020-04-23_14-10-59%20.jpg" alt="Xnip2020-04-23_14-10-59"></p><ul><li>所有的运输方式分海运、陆运及空运，买家根据不同的时效在平台看到海运、经济(运费较低、时效慢)、标准(时效快)。选择权在于买家，对卖家的影响是货款结算快慢的影响。</li><li>越南只适用于中国大陆卖家从大陆发货。</li><li>LGS服务协议</li></ul><h3 id="物流方案概述-–-经济运输"><a href="#物流方案概述-–-经济运输" class="headerlink" title="物流方案概述 – 经济运输"></a>物流方案概述 – 经济运输</h3><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/vfxIae%20.png" alt="vfxIae"><br><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/sqCDcy%20.png" alt="sqCDcy"><br><strong>Lazada经济运输在分拣中心有两种分拣模式，集运和非集运，集运或者飞机云由按照节省运力和费用的未读进行决定。</strong></p><h4 id="关于集运"><a href="#关于集运" class="headerlink" title="关于集运"></a>关于集运</h4><p><strong>集运优势</strong></p><ul><li><strong>将妥投失败率降到最低。</strong>由于LGS将多个包裹合并成了一个，客户将被鼓励以接收唯一的一个集运包裹，从而降低了因多个包裹造成的多次派送所带来的妥投失败的风险。</li><li><strong>节省买家的时间和精力。</strong>客户只需追踪和等待唯一的一个包裹，而不是去跟进和等待不同包裹的到来。</li></ul><p><strong>集运包裹</strong></p><ul><li>若一个客户订单包含多个经济运输的包裹，且来自于不同的跨境卖家，则有可能被运输。</li><li>准时送货绩效将基于分拣中心第一次扫描入库时间为计算依据，因此对卖家评分并无影响。</li></ul><h4 id="经济运输流程及时效-集运"><a href="#经济运输流程及时效-集运" class="headerlink" title="经济运输流程及时效(集运)"></a>经济运输流程及时效(集运)</h4><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/vH0I4C%20.png" alt="vH0I4C"></p><h4 id="经济运输流程及时效-非集运"><a href="#经济运输流程及时效-非集运" class="headerlink" title="经济运输流程及时效(非集运)"></a>经济运输流程及时效(非集运)</h4><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/B46q4C%20.png" alt="B46q4C"></p><h3 id="物流方案概述-–-标准运输"><a href="#物流方案概述-–-标准运输" class="headerlink" title="物流方案概述 – 标准运输"></a>物流方案概述 – 标准运输</h3><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/T2ozhp%20.png" alt="T2ozhp"><br><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/V33TzG%20.png" alt="V33TzG"></p><h4 id="标准运输过程及时间"><a href="#标准运输过程及时间" class="headerlink" title="标准运输过程及时间"></a>标准运输过程及时间</h4><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/Bk8362%20.png" alt="Bk8362"></p><h2 id="限制运输货物"><a href="#限制运输货物" class="headerlink" title="限制运输货物"></a>限制运输货物</h2><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/JIyxSd%20.png" alt="JIyxSd"></p><h2 id="物流收费介绍"><a href="#物流收费介绍" class="headerlink" title="物流收费介绍"></a>物流收费介绍</h2><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/Aac2w5%20.png" alt="Aac2w5"><br><strong>卖家支付:</strong>国际运输成本&amp;当地运输成本=基于当地运输费率卡<br><strong>卖家从买家收取:</strong>CSF:基于各目的地国家当地运输费率卡(根据实际重量和体积重量两者较高者计算)</p><ul><li>Lazada物流团队(LEL)将收取卖家运输费用，包括:1.国际运输费率；2.当地运输费率</li><li>运输费用基于LEL分拣中心的产品称重。</li><li>国际运输费率可由卖家决定计算进每件产品的价格。</li><li>买家运输费用(CSF)根据当地运输费率计算(根据买家所在地收取)。费用直接付给卖家。</li><li>买家运输费用由卖家在卖家中心输入的产品重量与体积重量之间的最大值决定。体积重量是产品常规包装规格的长x宽x高除以一个值(TH不考虑体积重，PH3500, SG5000，其他国家6000)</li><li>需要准确填写产品包装规格的长宽高，避免额外收取买家端运费</li></ul><h3 id="物流运输各国费率卡"><a href="#物流运输各国费率卡" class="headerlink" title="物流运输各国费率卡"></a>物流运输各国费率卡</h3><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/75qAsp%20.png" alt="75qAsp"></p><ul><li>以当地币种计算，费率卡适用于从香港及中国内地发货。（上述表格仅为方便卖家参考之用）</li><li>服务范围正向物流费用（包括集运、跨境运输，以及末程运输） 逆向物流费用（包括派送不成功包裹重新寄送、退货至香港，以及退货至卖家）</li><li>国际运输每千克运费根据每个包裹向卖家收取（具体收费标准请登录Lazada大学下载）</li><li>根据政府法规的更新，向销售者征收的关税和税项可能会发生变化</li><li>当地运输费用价格已包含VAT</li><li>物流运输过程中如有罚款产生（如：假冒或禁售产品罚款) 将按实际罚款金额向卖家收取</li><li>关税征收标准:商品当天前台展示售卖价-卖家折扣（多件多折、优惠券（不含lazada平台优惠券））</li></ul><h3 id="关于CSF"><a href="#关于CSF" class="headerlink" title="关于CSF"></a>关于CSF</h3><ul><li>CSF 全称Customer Shipping Fee，在产品页面展示的，买家可见的，当地物流费用</li><li>买家在结账时（Check out），除了商品本身价格外，还会看到他们应支付的当地物流费用（CSF)，商品价格+CSF=买家结账时支付金额</li><li>如果卖家设置了“包邮促销”，CSF的位置会显示”包邮”</li></ul><h2 id="卖家服务时效"><a href="#卖家服务时效" class="headerlink" title="卖家服务时效"></a>卖家服务时效</h2><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/imgs/44qRNZ%20.png" alt="44qRNZ"></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;为什么选择LGS&quot;&gt;&lt;a href=&quot;#为什么选择LGS&quot; class=&quot;headerlink&quot; title=&quot;为什么选择LGS&quot;&gt;&lt;/a&gt;为什么选择LGS&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;使用LGS的优势&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;每日直接寄送至东南亚，大幅度缩短派送时效。&lt;/li&gt;
+&lt;li&gt;通过集运及当地物流运送，可降低运送收费率。&lt;/li&gt;
+&lt;li&gt;通过发货及收货地的内部分拣管理机构，可提升对交货及物流分载的掌控度。&lt;/li&gt;
+&lt;li&gt;采用模块方式，可更灵活且大规模的管理不同合作伙伴，以及对高低峰及其他未知情况。&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="Lazada" scheme="https://ioser.io/tags/Lazada/"/>
+    
+      <category term="LGS" scheme="https://ioser.io/tags/LGS/"/>
+    
+      <category term="物流" scheme="https://ioser.io/tags/%E7%89%A9%E6%B5%81/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品类型和生命周期</title>
+    <link href="https://ioser.io/pb/type-of-products.html"/>
+    <id>https://ioser.io/pb/type-of-products.html</id>
+    <published>2020-02-25T10:55:50.000Z</published>
+    <updated>2020-12-09T04:09:37.935Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="产品成长类型"><a href="#产品成长类型" class="headerlink" title="产品成长类型"></a>产品成长类型</h2><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/6808e03720d87d25ddcd5680edbcaf7a.jpeg" alt="波士顿矩阵分析"></p><ul><li>新上的商品，高增长率(明星)</li><li>已经热卖，但增长停滞，市场占有率非常高 (金牛)</li><li>卖不动占用库存的(瘦狗)<a id="more"></a><h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3></li><li>有金牛的产品保证稳定收入</li><li>维持金牛的listing的健康运营，保持流量，保持转化率</li><li>不断地开发明星产品，培养未来的现金牛产品</li><li>及时清理瘦狗类产品</li></ul><h2 id="产品的生命周期"><a href="#产品的生命周期" class="headerlink" title="产品的生命周期"></a>产品的生命周期</h2><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/%E4%B8%8B%E8%BD%BD.png" alt=""></p><ol><li>介入期(试销期):新品上市，客户认知度低，总销量低，需要花费精力引流，促销。</li><li>成长期(红利期):客户对产品认知度上升，销量扩大，成本相对降低，利润增加，同时同行竞争者增加，供大于求，利润增长速度变慢。</li><li>成熟期:市场需求趋向饱和，销量增长缓慢。推广成本增加，利润下降。</li><li>衰退期:新品出现，销量显著衰退，利润大幅度降低。</li></ol><h3 id="判断产品的生命周期"><a href="#判断产品的生命周期" class="headerlink" title="判断产品的生命周期"></a>判断产品的生命周期</h3><p>通过市场反馈，比如评价:</p><ul><li>评价数量(反映销量)</li><li>评价分数(反映产品本身质量)</li><li>评价增长频率</li></ul><h3 id="成熟期的产品对策"><a href="#成熟期的产品对策" class="headerlink" title="成熟期的产品对策"></a>成熟期的产品对策</h3><p><strong>在保证市场利润率的情况下，促进销量的回升。</strong></p><ul><li>市场调整(向产品市场周边延伸)</li><li>产品调整(根据市场的反馈，对产品进行改进，做差异化)</li><li>营销推广调整(从站内到站外)</li></ul><h2 id="本章总结"><a href="#本章总结" class="headerlink" title="本章总结"></a>本章总结</h2><ul><li>不要开发成熟期或者衰退期的产品，做差异化产品。</li><li>在成熟期转折点出现前，对产品进行升级使得出现再一次的成长期或者直接放弃转而开发新产品。</li><li>不断的开发新品，保持活跃度；打造现金牛产品，有稳定的现金流。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;产品成长类型&quot;&gt;&lt;a href=&quot;#产品成长类型&quot; class=&quot;headerlink&quot; title=&quot;产品成长类型&quot;&gt;&lt;/a&gt;产品成长类型&lt;/h2&gt;&lt;p&gt;&lt;img src=&quot;https://hexoblogpic.oss-cn-beijing.aliyuncs.com/6808e03720d87d25ddcd5680edbcaf7a.jpeg&quot; alt=&quot;波士顿矩阵分析&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;新上的商品，高增长率(明星)&lt;/li&gt;
+&lt;li&gt;已经热卖，但增长停滞，市场占有率非常高 (金牛)&lt;/li&gt;
+&lt;li&gt;卖不动占用库存的(瘦狗)
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品定价利润核算及FBA补货周期</title>
+    <link href="https://ioser.io/pb/priceing-of-listing.html"/>
+    <id>https://ioser.io/pb/priceing-of-listing.html</id>
+    <published>2020-02-25T08:07:26.000Z</published>
+    <updated>2020-12-09T04:09:37.933Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="亚马逊的核心公式"><a href="#亚马逊的核心公式" class="headerlink" title="亚马逊的核心公式"></a>亚马逊的核心公式</h2><ul><li>listing销量 = 流量 * 转化率</li><li>listing销售额 = 销量 * 客单价</li><li>销量降低，一是看自身问题，二是看竞争店铺，三是看行业情况。转化率下降考虑优化listing(老listing调整价格和评分问题)，流量低增加流量入口。<a id="more"></a></li></ul><h3 id="亚马逊飞轮理论"><a href="#亚马逊飞轮理论" class="headerlink" title="亚马逊飞轮理论"></a>亚马逊飞轮理论</h3><p><img src="https://hexoblogpic.oss-cn-beijing.aliyuncs.com/feilunlilun.jpg" alt="飞轮理论原理图"><br>关于飞轮理论可以参考知乎上<a href="https://zhuanlan.zhihu.com/p/59798500">这篇文章</a>，将飞轮理论运用起来，产生良性循环。</p><h2 id="产品定价利润核算"><a href="#产品定价利润核算" class="headerlink" title="产品定价利润核算"></a>产品定价利润核算</h2><ul><li>客单价决定消费层级。</li><li>根据产品和客户群体定位选择对应的产品价格。</li><li>产品定价 = 产品成本+头程+FBA配送费+佣金+毛利润(详细利润还要计算推广费用(10%左右)，售后退货(3%左右)，促销等情况)。 </li></ul><h2 id="选品布局类型"><a href="#选品布局类型" class="headerlink" title="选品布局类型"></a>选品布局类型</h2><h3 id="1-季节性-节日"><a href="#1-季节性-节日" class="headerlink" title="1. 季节性/节日"></a>1. 季节性/节日</h3><p>快捷的选品方向，要充分考虑到产品的生命周期。节日产品起码需要在节前两个月开发补货，起码节前1个月到亚马逊仓库，再做推广</p><h3 id="2-全年需求产品布局"><a href="#2-全年需求产品布局" class="headerlink" title="2. 全年需求产品布局"></a>2. 全年需求产品布局</h3><ul><li><p>专注类目</p><ul><li>深挖类目，做的更好更精致，更利于做品牌。</li></ul></li><li><p>杂货铺式精品路线</p><ul><li>有很多不同类目的产品。</li><li>每个产品都是精挑细选出来的。</li><li>更利于抓取广泛的流量。</li></ul></li></ul><h3 id="3-利润款-引流款-爆款"><a href="#3-利润款-引流款-爆款" class="headerlink" title="3. 利润款+引流款(爆款)"></a>3. 利润款+引流款(爆款)</h3><h4 id="打造爆款的条件"><a href="#打造爆款的条件" class="headerlink" title="打造爆款的条件"></a>打造爆款的条件</h4><ul><li>需要具备版权(决定竞争对手多少)</li><li>产品差异化(是产品的一个卖点)</li><li>产品高利润(高利润才有更多操作空间)</li></ul><h4 id="“爆款”产品的类型"><a href="#“爆款”产品的类型" class="headerlink" title="“爆款”产品的类型"></a>“爆款”产品的类型</h4><p><strong>推荐起码具备以上三个条件中的一个打造爆款。</strong></p><ul><li>平稳型(具备以上三个条件即可成为平稳型，产品发布之后只需花点时间推广即可。)</li><li>热点型/卖点型(随着买家关注热点、趋势突然莫名其妙的火的。)</li><li>粗暴型(只要推广成本足够，任何产品都有可能火。)</li></ul><h2 id="产品补货周期"><a href="#产品补货周期" class="headerlink" title="产品补货周期"></a>产品补货周期</h2><p>库存可售天数 = (FBA在售产品 + 补货在途产品 - 活动库存)/产品平均销量<br>补货节点 = 库存可售天数 - 头程 - 亚马逊转运上架时间 - 产品生产周期</p><h2 id="旺季节日"><a href="#旺季节日" class="headerlink" title="旺季节日"></a>旺季节日</h2><p>情人节、复活节、母亲节、父亲节、Prime Day、感恩节、万圣节、黑色星期五、网购星期一、圣诞节(元旦节)</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;亚马逊的核心公式&quot;&gt;&lt;a href=&quot;#亚马逊的核心公式&quot; class=&quot;headerlink&quot; title=&quot;亚马逊的核心公式&quot;&gt;&lt;/a&gt;亚马逊的核心公式&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;listing销量 = 流量 * 转化率&lt;/li&gt;
+&lt;li&gt;listing销售额 = 销量 * 客单价&lt;/li&gt;
+&lt;li&gt;销量降低，一是看自身问题，二是看竞争店铺，三是看行业情况。转化率下降考虑优化listing(老listing调整价格和评分问题)，流量低增加流量入口。
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>站外营销模式之社交媒体</title>
+    <link href="https://ioser.io/pb/outside-website-social.html"/>
+    <id>https://ioser.io/pb/outside-website-social.html</id>
+    <published>2020-02-21T13:20:00.000Z</published>
+    <updated>2020-12-09T04:09:37.939Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="similarwebsite"><a href="#similarwebsite" class="headerlink" title="similarwebsite"></a>similarwebsite</h2><p>可以查看竞争对手网站所做的站外活动。</p><h2 id="Facebook"><a href="#Facebook" class="headerlink" title="Facebook"></a>Facebook</h2><p>FB是国外用户量及活跃度最大的一个社交平台，通过这个平台可以获取最大量的测评资源和FB红人。<br>正确认识FB信息和算法，默认以热度排序，不纯粹以时间为排序。</p><a id="more"></a><h3 id="学会创建FB三种账户类型"><a href="#学会创建FB三种账户类型" class="headerlink" title="学会创建FB三种账户类型"></a>学会创建FB三种账户类型</h3><ul><li>个人账户</li><li>专业Page(依附于个人账户，点击个人主页右上角展开分类可以创建和查看)</li><li>广告账户(依附于个人账户)</li></ul><h3 id="Facebook运营的七大要点"><a href="#Facebook运营的七大要点" class="headerlink" title="Facebook运营的七大要点"></a>Facebook运营的七大要点</h3><ul><li>干净的网络—最好固定ip，避免异常登录</li><li>完善的个人信息—职业，教育信息，个人简介，头像使用真实头像</li><li>良好的动态圈—分享日常，转发帖子，私聊，参与讨论，好友互加(添加站点地的FB用户，一天同一时间段不要添加过多好友)互动等</li><li>高质量的帖子—加入小组之后发帖子</li><li>安全的测评流程体系</li><li><a href="#公共主页">公共主页</a></li><li><a href="#广告账户">创建广告</a></li></ul><h3 id="筛选测评小组的条件"><a href="#筛选测评小组的条件" class="headerlink" title="筛选测评小组的条件"></a>筛选测评小组的条件</h3><ul><li>公开小组/封闭小组(最好选择封闭小组)</li><li>小组地址(最好选择带地址的国外管理员管理的小组)</li><li>成员数量(最好选择5k-1w成员之间的小组)</li><li>帖子数量(最好超过10个帖子/day的小组)</li><li>回答问题(加入小组的验证问题)</li></ul><h3 id="卖家的安全测评流程体系"><a href="#卖家的安全测评流程体系" class="headerlink" title="卖家的安全测评流程体系"></a>卖家的安全测评流程体系</h3><ol><li><a href="#发布帖子方式">发布帖子</a></li><li><a href="#测评交流">测评交流</a></li><li><a href="#信息真实性获取">信息真实性获取</a></li><li><a href="#下单流程">下单流程</a></li><li><a href="#信息记录">信息记录</a></li><li><a href="#完成测评">完成测评</a></li></ol><h4 id="发布帖子方式"><a href="#发布帖子方式" class="headerlink" title="发布帖子方式"></a>发布帖子方式</h4><ul><li>群组发布</li><li>主页发布</li><li>小组发布</li></ul><h4 id="发布帖子的5种类型"><a href="#发布帖子的5种类型" class="headerlink" title="发布帖子的5种类型"></a>发布帖子的5种类型</h4><ol><li>纯文字背景类型</li><li>图文类型</li><li>卖货类型(测评小组填0，折扣小组填折扣价格)</li><li>群组里面发折扣信息</li><li>联系deal群主发布帖子</li></ol><h4 id="测评交流"><a href="#测评交流" class="headerlink" title="测评交流"></a>测评交流</h4><ul><li>语气积极主动，款式多者尽可能让测评人有更多的选择空间。</li><li>发送产品规格给测评人选择。</li><li>询问对方是想要code的方式还是全款的方式。</li><li>测评人确定下单方式后，询问对方是否愿意收货后返款或者留评/feedback后返款，一般code希望对方留</li><li>FB交流常用语(dear, sweetie, friend..)，交流缩写语(pic, u, r, pp(PayPal), gc(gift card), thx, ty, pls)</li></ul><h4 id="信息真实性获取"><a href="#信息真实性获取" class="headerlink" title="信息真实性获取"></a>信息真实性获取</h4><ul><li>买家截图，账号链接，PayPal邮箱等</li><li>可通过<a href="https://mjzj.com/ce-ping-bao-guang-tai.html">卖家之家</a>、<a href="https://www.amz520.com/amztools/reviewer.html">Amz520</a>等测评网站辨别买家可信度。查询到是骗子可以在以上网站举报或者直接忽视。</li></ul><h4 id="下单流程"><a href="#下单流程" class="headerlink" title="下单流程"></a>下单流程</h4><ul><li>图文交易: 搜索关键词–第几页截图–浏览加购–下单–提供订单号–重申返款形式–结束聊天。</li><li>关键词排名在前5页时可以给买家说明关键词排名在第几页，新品期的话先用权威链接给买家出单，提升内部排名，搜索关键词排名比较靠后，可以使用短/超链接的形式，快速将排名挤到前5页。查看自家商品销量，再通过<a href="https://www.junglescout.cn/extension/?gspk=OTQ0&gsxid=6VPZOgWsJQvj&utm_medium=944&utm_source=affiliate">JungleScout插件</a>查看第5页除去广告位的最后一个商品的销量/30，即可估算出这个竞品的日销量，自己在这个竞品日销量上面再加个3-5个即可取代它的位置进入关键词排名前5页。</li></ul><h4 id="信息记录"><a href="#信息记录" class="headerlink" title="信息记录"></a>信息记录</h4><ul><li>记录买家账号，联系方式，下单形式，订单信息等基本信息。</li><li>当测评人要求返还PayPal手续费时，可通过<a href="https://salecalc.com/paypal">salecalc </a>网站计算。</li></ul><h4 id="完成测评"><a href="#完成测评" class="headerlink" title="完成测评"></a>完成测评</h4><p>账号确认，返款截图。返款时记得备注产品名和订单号。</p><h3 id="公共主页"><a href="#公共主页" class="headerlink" title="公共主页"></a>公共主页</h3><ul><li>创建公共主页可选择商品或者品牌。</li><li>在公共主页发布介绍产品的帖子，不要发测评等帖子。</li><li>速推帖子管理受众。 </li></ul><h3 id="广告账户"><a href="#广告账户" class="headerlink" title="广告账户"></a>广告账户</h3><h4 id="广告账户的作用"><a href="#广告账户的作用" class="headerlink" title="广告账户的作用"></a>广告账户的作用</h4><ul><li>提高页面粉丝数</li><li>提高信息覆盖度(Boot your post)</li><li>从FB导流到店铺、独立站(send people to your web)</li></ul><h4 id="如何创建广告账户"><a href="#如何创建广告账户" class="headerlink" title="如何创建广告账户"></a>如何创建广告账户</h4><ul><li>当个人账户运行稳定，粉丝数达到50或100个以上时再去创建广告账户。</li><li>点击账户右上角展开分类，点击创建广告。</li><li>根据实际情况填写相关信息，选择账户地区，创建账户。</li><li>受众页面选择店铺站点对应的国家地区，尽量保持精准。</li></ul><h2 id="instagram"><a href="#instagram" class="headerlink" title="instagram"></a>instagram</h2><p>instagram是全球最大的图片分享平台，以图片为主，可以分享视频和进行直播。</p><ul><li>完善个人信息。</li><li>精修图片。借助<strong>模特、道具、灯光、背景色彩</strong>等辅助条件突出产品，<strong>使用产品时拍的生活照</strong>利用自然的光照。</li><li>发布技巧。利用好<strong>#添加标签</strong>，商品链接放置权威链接。</li><li>适合ins的产品:手机配件、包包、鞋服、美妆、户外产品。</li><li>其他图片平台: Pinterest(适合女性用品)，Google图库等。</li></ul><h2 id="twitter"><a href="#twitter" class="headerlink" title="twitter"></a>twitter</h2><p>活跃度没有FB高，突出功能是<strong>@功能</strong>。</p><ul><li>亚马逊后台设置促销折扣，获取折扣码。</li><li>搜索reviewer用户。</li><li>关注该用户并发推或者私信code和产品链接给他。</li><li>参看该用户发布code的形式，按照形式发送给他。</li></ul><h2 id="判断买家权重"><a href="#判断买家权重" class="headerlink" title="判断买家权重"></a>判断买家权重</h2><ul><li>进入买家亚马逊主页，查看留评间隔时间。</li><li>查看买家评论星级，经常留1-3星的适合做折扣单，不要留评。</li><li>查看买家的消费水平。</li><li>查看Reviewer Ranking，排名最好在2-3W之前的买家适合留评。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;similarwebsite&quot;&gt;&lt;a href=&quot;#similarwebsite&quot; class=&quot;headerlink&quot; title=&quot;similarwebsite&quot;&gt;&lt;/a&gt;similarwebsite&lt;/h2&gt;&lt;p&gt;可以查看竞争对手网站所做的站外活动。&lt;/p&gt;
+&lt;h2 id=&quot;Facebook&quot;&gt;&lt;a href=&quot;#Facebook&quot; class=&quot;headerlink&quot; title=&quot;Facebook&quot;&gt;&lt;/a&gt;Facebook&lt;/h2&gt;&lt;p&gt;FB是国外用户量及活跃度最大的一个社交平台，通过这个平台可以获取最大量的测评资源和FB红人。&lt;br&gt;正确认识FB信息和算法，默认以热度排序，不纯粹以时间为排序。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+      <category term="站外营销" scheme="https://ioser.io/tags/%E7%AB%99%E5%A4%96%E8%90%A5%E9%94%80/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚马逊如何上传产品</title>
+    <link href="https://ioser.io/pb/creat-listing-amazon.html"/>
+    <id>https://ioser.io/pb/creat-listing-amazon.html</id>
+    <published>2020-02-07T08:46:53.000Z</published>
+    <updated>2020-12-09T04:09:37.931Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="路径"><a href="#路径" class="headerlink" title="路径"></a>路径</h2><p>后台页面-&gt;库存-&gt;添加新商品-&gt;创建新商品信息。</p><h2 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h2><ol><li>添加商品目录</li><li>打开Advanced View</li><li>填写商品信息信息<a id="more"></a></li></ol><h3 id="Vital-Info"><a href="#Vital-Info" class="headerlink" title="Vital Info"></a>Vital Info</h3><ul><li>Product Name(标题)</li><li>Manufacturer(填写店铺名即可)</li><li>Product ID(填写UPC或者ENA, 参考<a href="https://ioser.io/2020/02/05/亚马逊相关编码介绍#UPC">亚马逊相关编码介绍</a>)</li><li>Brand</li><li>Size(针对单个变体填写)</li><li>Color(针对单个变体填写)</li><li>Color Map(系统自动生成，卖家选择，便于亚马逊统一理解其颜色)</li><li>Size Map(系统自动生成，卖家选择，便于亚马逊统一理解其尺寸)</li></ul><h3 id="Variations"><a href="#Variations" class="headerlink" title="Variations"></a>Variations</h3><p>指的是一个产品有多个变体，在这里填写变体信息。<br>添加变体之后在下面填写子SKU, Product ID，成色状态，价格，库存等信息。</p><h3 id="Offer"><a href="#Offer" class="headerlink" title="Offer"></a>Offer</h3><ul><li>Shipping-Template，运费模板。</li><li>Max Order Quantity，最大可购买量。</li><li>Product Tax Code，税号，可忽略。</li><li>Manufacturer’s Suggested Retail Price，工厂建议价。</li><li>Handing Time，发货处理时间，默认两天。</li><li>Restock Date，库存更新时间。</li><li>Offering Can Be Gift Messaged，可否附加礼品信息。参考<a href="https://ioser.io/2020/02/04/亚马逊前台界面讲解#榜单讲解">亚马逊前台界面讲解</a></li><li>Is Gift Wrap Available，可否礼盒包装。</li><li>Start selling date，开始销售日期。</li><li>Fulfillment Channel，产品发货方，含自发货和FBA。</li></ul><h3 id="Compliance"><a href="#Compliance" class="headerlink" title="Compliance"></a>Compliance</h3><p>产品详细信息，包含重量，电池重量等。选填。</p><h3 id="Images"><a href="#Images" class="headerlink" title="Images"></a>Images</h3><p>提交主图和副图，图片要求参考<a href="https://ioser.io/2020/02/05/产品的五要素/#图片">产品的五要素图片部分</a>。</p><h3 id="Description"><a href="#Description" class="headerlink" title="Description"></a>Description</h3><ul><li>Description，产品详情描述，参考<a href="https://ioser.io/2020/02/05/产品的五要素/#详情描述">产品的五要素详情描述部分</a>。</li><li>Bullet Point，五点描述，参考<a href="https://ioser.io/2020/02/05/产品的五要素/#怎么写五行描述？">产品的五要素五行描述部分</a></li></ul><h3 id="keywords"><a href="#keywords" class="headerlink" title="keywords"></a>keywords</h3><ul><li>Search Terms，后台关键词，参考<a href="https://ioser.io/2020/02/05/产品的五要素#怎么写关键词？">产品的五要素关键词部分</a></li></ul><h3 id="More-Details"><a href="#More-Details" class="headerlink" title="More Details"></a>More Details</h3><p>一般指产品的规格，重量和包装信息上，尽可能多的填写，对亚马逊的抓取和推送有利。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;路径&quot;&gt;&lt;a href=&quot;#路径&quot; class=&quot;headerlink&quot; title=&quot;路径&quot;&gt;&lt;/a&gt;路径&lt;/h2&gt;&lt;p&gt;后台页面-&amp;gt;库存-&amp;gt;添加新商品-&amp;gt;创建新商品信息。&lt;/p&gt;
+&lt;h2 id=&quot;步骤&quot;&gt;&lt;a href=&quot;#步骤&quot; class=&quot;headerlink&quot; title=&quot;步骤&quot;&gt;&lt;/a&gt;步骤&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;添加商品目录&lt;/li&gt;
+&lt;li&gt;打开Advanced View&lt;/li&gt;
+&lt;li&gt;填写商品信息信息
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚马逊后台界面讲解</title>
+    <link href="https://ioser.io/pb/amazon-back-page.html"/>
+    <id>https://ioser.io/pb/amazon-back-page.html</id>
+    <published>2020-02-06T09:04:53.000Z</published>
+    <updated>2020-12-09T04:09:37.931Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="后台登录"><a href="#后台登录" class="headerlink" title="后台登录"></a>后台登录</h2><ul><li>进入<a href="https://www.amz123.com">亚马逊导航网站</a>，点击对应的站点。</li><li>任意商品页面下方-&gt;seller of Amazon</li><li>每次退出和登录都需要验证码，可以设置在此账号无需验证。<a id="more"></a></li></ul><h2 id="八大按钮"><a href="#八大按钮" class="headerlink" title="八大按钮"></a>八大按钮</h2><h3 id="1-目录"><a href="#1-目录" class="headerlink" title="1.目录"></a>1.目录</h3><h3 id="2-库存"><a href="#2-库存" class="headerlink" title="2.库存"></a>2.库存</h3><h3 id="3-定价"><a href="#3-定价" class="headerlink" title="3.定价"></a>3.定价</h3><h3 id="4-订单"><a href="#4-订单" class="headerlink" title="4.订单"></a>4.订单</h3><ul><li>等待中。(拍下未付款)</li><li>未发货的优先配送订单。(一般针对的是Prime、FBA产品)</li><li>卖家自发货，卖家需两个自然内上传单号。</li></ul><h4 id="绩效"><a href="#绩效" class="headerlink" title="绩效"></a>绩效</h4><ul><li>买家消息，卖家需在两个自然日内回复。</li><li>亚马逊商城交易保障索赔。AtoZ。买家对商品不满意，将纠纷交给Amazon定夺。</li><li>信用卡(服务卡)拒付赔偿。</li></ul><h3 id="5-广告-本章多处可参考亚马逊前台界面讲解"><a href="#5-广告-本章多处可参考亚马逊前台界面讲解" class="headerlink" title="5.广告(本章多处可参考亚马逊前台界面讲解)"></a>5.广告(本章多处可参考<a href="https://ioser.io/2020/02/04/亚马逊前台界面讲解#秒杀界面">亚马逊前台界面讲解</a>)</h3><h4 id="图文品牌描述"><a href="#图文品牌描述" class="headerlink" title="图文品牌描述"></a>图文品牌描述</h4><p>品牌备案入口。</p><h4 id="早期评论者计划。"><a href="#早期评论者计划。" class="headerlink" title="早期评论者计划。"></a>早期评论者计划。</h4><p>亚马逊收费帮我们完成早期测评。测评条件:</p><ul><li>必须拥有品牌备案。</li><li>产品售价必须高于15美金。</li><li>产品的Review数量不得高于5个。</li></ul><h4 id="秒杀"><a href="#秒杀" class="headerlink" title="秒杀"></a>秒杀</h4><p>指的是之前讲过的闪电秒杀。</p><h4 id="管理促销-PPC"><a href="#管理促销-PPC" class="headerlink" title="管理促销(PPC)"></a>管理促销(PPC)</h4><p>必须拥有黄金购物车才可以做促销。</p><h3 id="6-店铺"><a href="#6-店铺" class="headerlink" title="6.店铺"></a>6.店铺</h3><p> 管理店铺，创建品牌旗舰店的地方。</p><h3 id="7-数据报告"><a href="#7-数据报告" class="headerlink" title="7.数据报告"></a>7.数据报告</h3><h4 id="付款"><a href="#付款" class="headerlink" title="付款"></a>付款</h4><p>显示亚马逊所有的付款信息，关于我们回款的数目金额，指的是账户余额(除掉店铺费用，佣金费用，配送费用，广告费用等以外的金额)。回款周期14天，自上传物流单号之日起。</p><h4 id="业务报告"><a href="#业务报告" class="headerlink" title="业务报告"></a>业务报告</h4><p>显示产品的曝光、点击、转化率等信息。</p><h3 id="8-B2B"><a href="#8-B2B" class="headerlink" title="8.B2B"></a>8.B2B</h3><p>针对卖家开通B2B功能，设置批量采购价。</p><h2 id="店铺绩效"><a href="#店铺绩效" class="headerlink" title="店铺绩效"></a>店铺绩效</h2><h3 id="订单缺陷率-lt-1"><a href="#订单缺陷率-lt-1" class="headerlink" title="订单缺陷率(&lt;1%)"></a>订单缺陷率(&lt;1%)</h3><ul><li>负面反馈(差评，Feedback)。</li><li>已提交的亚马逊商城交易索赔(A to Z)。</li><li>服务性拒付率，消费者拍下拒绝付款。</li></ul><h3 id="退货不满意率-lt-10"><a href="#退货不满意率-lt-10" class="headerlink" title="退货不满意率(&lt;10%)"></a>退货不满意率(&lt;10%)</h3><ul><li>负面退货反馈率</li><li>延迟回复率</li><li>无效拒付率。消费者拒付被卖家拒绝，买家可以要求亚马逊介入定夺是否可以退款。</li></ul><h3 id="买家与卖家联系指标"><a href="#买家与卖家联系指标" class="headerlink" title="买家与卖家联系指标"></a>买家与卖家联系指标</h3><ul><li>客户服务不满意率(&lt;25%)</li><li>24小时之内回复次数(&gt;90%)</li><li>延迟回复(&lt;=10%)</li><li>平均回复时间</li></ul><h3 id="最近卖家指标数据"><a href="#最近卖家指标数据" class="headerlink" title="最近卖家指标数据"></a>最近卖家指标数据</h3><ul><li>取消率(&lt;2.5%)，买家购买之后超过4个小时，借助卖家允许才可以取消订单，会计算入取消率之中。</li><li>迟发率(&lt;4%)，两天之内需发货。</li><li>退款率</li></ul><h3 id="绩效目标"><a href="#绩效目标" class="headerlink" title="绩效目标"></a>绩效目标</h3><ul><li>订单缺陷率: &lt; 1%</li><li>取消率: &lt;2.5%</li><li>货品迟发率: &lt; 4%</li><li>有效的跟踪率 - 全部类别: &gt; 95%</li></ul><h2 id="问题回复"><a href="#问题回复" class="headerlink" title="问题回复"></a>问题回复</h2><p>在后台 页面，管理您的问题日志处。</p><h2 id="建立国际商品连接"><a href="#建立国际商品连接" class="headerlink" title="建立国际商品连接"></a>建立国际商品连接</h2><p>后台右下角–&gt;在全球开店，点击启用更多商品信息，进入新的页面，点击开始使用，进入新的页面，选择目标商城，勾选同步的区域，保存并继续。</p><h2 id="如何开case"><a href="#如何开case" class="headerlink" title="如何开case"></a>如何开case</h2><p>后台最下部分，点击获得支持，一般是开店问题，输入主题，获得帮助，选择相关类型或者直接联系客服人员。</p><h3 id="联系客服人员方式"><a href="#联系客服人员方式" class="headerlink" title="联系客服人员方式"></a>联系客服人员方式</h3><ul><li>邮件(24小时之内回复)</li><li>电话</li><li>在线聊天</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;后台登录&quot;&gt;&lt;a href=&quot;#后台登录&quot; class=&quot;headerlink&quot; title=&quot;后台登录&quot;&gt;&lt;/a&gt;后台登录&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;进入&lt;a href=&quot;https://www.amz123.com&quot;&gt;亚马逊导航网站&lt;/a&gt;，点击对应的站点。&lt;/li&gt;
+&lt;li&gt;任意商品页面下方-&amp;gt;seller of Amazon&lt;/li&gt;
+&lt;li&gt;每次退出和登录都需要验证码，可以设置在此账号无需验证。
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚马逊相关编码介绍</title>
+    <link href="https://ioser.io/pb/related-codes-amazon.html"/>
+    <id>https://ioser.io/pb/related-codes-amazon.html</id>
+    <published>2020-02-05T11:54:18.000Z</published>
+    <updated>2020-12-09T04:09:37.933Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="ASIN码"><a href="#ASIN码" class="headerlink" title="ASIN码"></a>ASIN码</h3><ul><li>Amazon Standard Identification Number(亚马逊标准标识号)。ASIN是亚马逊商品一个特殊的编码标识，每个商品的都不同，是亚马逊随机生成的字母数字组合。</li><li>ASIN可以直接在亚马逊搜索显示对应的商品。</li><li>商品详情和链接有显示ASIN码。</li><li>在创建产品促销信息、广告、跟卖等情况下会用到。<a id="more"></a></li></ul><h3 id="父体与子体、变体"><a href="#父体与子体、变体" class="headerlink" title="父体与子体、变体"></a>父体与子体、变体</h3><h4 id="变体"><a href="#变体" class="headerlink" title="变体"></a>变体</h4><p>变体用于关联那些基本相同，但在一个或多个关键属性(如尺寸或颜色)方面存在差异的商品。<br>变体只是一个框架，具体的体现是变体下不同的子体。例如一款衣服根据尺码、颜色不同有不同的子体，那么有尺码，颜色两种变体。</p><h3 id="UPC-EAN码"><a href="#UPC-EAN码" class="headerlink" title="UPC/EAN码"></a>UPC/EAN码</h3><h4 id="UPC"><a href="#UPC" class="headerlink" title="UPC"></a>UPC</h4><p>商品标识码的一种，是UCC(美国统一编码委员会)于1973年建立的UPC代码系统，并全面实现了该码的标准化。目前主要在美国和加拿大使用，应用范围广泛。它是商品信息的符号，通过电子扫面可以读取该商品的产地和商品的相关信息，除UPC外，还有EAN商品码，中国采取的EAN码。</p><h4 id="EAN"><a href="#EAN" class="headerlink" title="EAN"></a>EAN</h4><p>EAN是国际物品编码协会的商品编码，可以全球通用，欧洲使用广泛。</p><p><strong>UPC、EAN统称为Product ID，上传产品时必填(Product ID type)。</strong></p><h4 id="如何获得商品UPC-EAN"><a href="#如何获得商品UPC-EAN" class="headerlink" title="如何获得商品UPC/EAN?"></a>如何获得商品UPC/EAN?</h4><ul><li>在中国物品编码中心网站购买。</li><li>淘宝上搜索购买。</li><li>通过条码生成器生成(非正规渠道，有重复风险)。</li></ul><h3 id="SKU码"><a href="#SKU码" class="headerlink" title="SKU码"></a>SKU码</h3><p>对电商而言，SKU是指一款商品，每个产品都会出现一个SKU，便于识别商品。</p><h4 id="编写SKU技巧"><a href="#编写SKU技巧" class="headerlink" title="编写SKU技巧"></a>编写SKU技巧</h4><ul><li>根据变量(Variation)种类设置SKU的变量标示，便于区分。</li><li>遵循原则：统一格式、统一含义、简明扼要。</li><li>一款产品有多个子体那么便有多个不同的SKU，可以使用前缀+特性来设置。例如：站点编号+产品编号+品名+颜色+尺寸。 </li></ul><h3 id="品牌备案、GCID码"><a href="#品牌备案、GCID码" class="headerlink" title="品牌备案、GCID码"></a>品牌备案、GCID码</h3><h4 id="品牌备案"><a href="#品牌备案" class="headerlink" title="品牌备案"></a>品牌备案</h4><p>在指亚马逊上申请品牌保护，前提要在当前站点所在地申请商标。申请品牌备案之后可以在后台申请设置产品图文详情界面。</p><h4 id="GCID-Global-Catalog-Identifier-码"><a href="#GCID-Global-Catalog-Identifier-码" class="headerlink" title="GCID(Global Catalog Identifier)码"></a>GCID(Global Catalog Identifier)码</h4><ul><li>申请品牌备案之后亚马逊生成并自动分配的独一无二的品牌标识符，亚马逊用GCID码检查产品能否跟卖。<strong>申请品牌备案是最好的防跟卖的方式。</strong></li><li>16位字符，包含字母和数字。</li><li>等同每一条listing里的UPC码，UPC码就可以省掉。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;ASIN码&quot;&gt;&lt;a href=&quot;#ASIN码&quot; class=&quot;headerlink&quot; title=&quot;ASIN码&quot;&gt;&lt;/a&gt;ASIN码&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;Amazon Standard Identification Number(亚马逊标准标识号)。ASIN是亚马逊商品一个特殊的编码标识，每个商品的都不同，是亚马逊随机生成的字母数字组合。&lt;/li&gt;
+&lt;li&gt;ASIN可以直接在亚马逊搜索显示对应的商品。&lt;/li&gt;
+&lt;li&gt;商品详情和链接有显示ASIN码。&lt;/li&gt;
+&lt;li&gt;在创建产品促销信息、广告、跟卖等情况下会用到。
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>产品的五要素</title>
+    <link href="https://ioser.io/pb/elements-of-listing.html"/>
+    <id>https://ioser.io/pb/elements-of-listing.html</id>
+    <published>2020-02-05T08:59:33.000Z</published>
+    <updated>2020-12-12T03:13:22.995Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="标题"><a href="#标题" class="headerlink" title="标题"></a>标题</h3><p><strong>标题是最重要的关键词。</strong><br><strong>好的标题需要包含产品相关信息的同时，能让客户不用再看其他任何产品信息就可以产生正确的购买行为。</strong></p><a id="more"></a><h4 id="符合排版，六大必备要素"><a href="#符合排版，六大必备要素" class="headerlink" title="符合排版，六大必备要素"></a>符合排版，六大必备要素</h4><p><strong>品牌+产品型号/系列+材料/关键词+颜色+尺寸+包装/数量，关键信息尽量提现</strong></p><ul><li>品牌(第一位)</li><li>商品描述，表达产品的关键信息</li><li>商品系列或者型号(非必要)</li><li>颜色</li><li>尺寸</li><li>数量</li></ul><h4 id="标题注意事项"><a href="#标题注意事项" class="headerlink" title="标题注意事项"></a>标题注意事项</h4><ul><li>勿放虚假的产品标题提升搜索，就算搜索到，转化率也不见得会高。</li><li>不要写别人的品牌名，有<strong>侵权</strong>的危险，建议申请自己的品牌商标。</li><li>勿塞过多的字，杂乱的标题会让买家不信任，重在给消费者传达正确的信息。</li><li>除and, or, the, with, for, a, an之类的介词外，单词首字母大写。</li><li>合乎语法，80个字符最佳，不要出现拼写错误的低级错误。(跟类目，阅读体验和移动端展示效果相关。)</li><li>listing一旦上传，<strong>所有权不再是卖家</strong>。如果listing上架后表现稳定，无法修改编辑(3个月后回收编辑权)，需要修改的话请开case联系亚马逊客服。</li></ul><h3 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h3><p><strong>图片制作时注意不要出现侵权的情况。</strong></p><h4 id="主图要求"><a href="#主图要求" class="headerlink" title="主图要求"></a>主图要求</h4><ul><li>主图背景必须纯白色(搜索界面和详情界面展示的主图背景都是纯白色，RGB:255, 255, 255)。</li><li>主图不能是绘图或者插图，不能包含时既不在订单内的配件、道具。</li><li>不能带logo或者水印(产品本身自带的logo是允许的)。</li><li>产品最好占据图片85%左右的空间。</li><li>产品在图片中清晰可见，如果有模特，那么模特不能是坐姿，最好是站姿。</li><li>如果使用模特就用真人模特，不能使用服装店里的那种模型模特。</li><li>不能包含裸露信息。</li></ul><h4 id="辅图要求"><a href="#辅图要求" class="headerlink" title="辅图要求"></a>辅图要求</h4><ul><li>辅图应该对产品做不同侧面的展示，对产品使用的展示，或对在主图中没凸显出来的产品特性做补充。</li><li>一个listing中最多可以添加8张辅图。</li><li>最好和主图一样纯白北京，不做强制要求。</li><li>不能带logo或者水印(产品本身自带的logo是允许的)。</li><li>产品在图片中清晰可见，如果有模特，那么模特不能是坐姿，最好是站姿。</li><li>如果使用模特就用真人模特，不能使用服装店里的那种模型模特。</li><li>不能包含裸露信息。</li></ul><h4 id="图片尺寸要求"><a href="#图片尺寸要求" class="headerlink" title="图片尺寸要求"></a>图片尺寸要求</h4><ul><li>图片任意一边大于1000像素时，该图片就会有“zoom function”图片放大功能。(“zoom function”被亚马逊证明对产品提高销量有一定帮助。)</li><li>图片的最小边如果小于500像素，上传时会被亚马逊拒绝。</li></ul><h4 id="图片格式要求"><a href="#图片格式要求" class="headerlink" title="图片格式要求"></a>图片格式要求</h4><p>JPEG, TIFF, GIF等。(推荐JPEG格式，上传速度最快。)</p><h3 id="五行描述-Bullet-Point"><a href="#五行描述-Bullet-Point" class="headerlink" title="五行描述(Bullet Point)"></a>五行描述(Bullet Point)</h3><p><strong>位置显眼，体现消费者最关心的信息，帮助客户快速阅读和理解产品。</strong></p><h4 id="怎么写五行描述？"><a href="#怎么写五行描述？" class="headerlink" title="怎么写五行描述？"></a>怎么写五行描述？</h4><ul><li>简明扼要，在语句通顺的前提下部署少量关键词(可以被搜索到，一般写两到三个)。</li><li>表达两点。五行关键点要包括产品、原材料尺寸、功能、特点、又是、包装、用途、保修，将消费者关心的点写出来。</li><li>排版整齐，要有美感。短句排在前面，长句排在后面。思考客户最疑虑的部分，重点解释，描述清楚。</li><li>使用特殊标点符号。</li></ul><h3 id="详情描述"><a href="#详情描述" class="headerlink" title="详情描述"></a>详情描述</h3><ul><li>最多2000字符。</li><li>可以作为对五行描述的升级和补充。</li></ul><h3 id="search-terms-关键词，Keywords"><a href="#search-terms-关键词，Keywords" class="headerlink" title="search terms(关键词，Keywords)"></a>search terms(关键词，Keywords)</h3><p><strong>权重仅次于标题。</strong></p><h4 id="怎么写关键词？"><a href="#怎么写关键词？" class="headerlink" title="怎么写关键词？"></a>怎么写关键词？</h4><ul><li>search terms最大容纳250个字符，超出部分会被系统忽略。</li><li>关键词以单词为单位，不能识别词组，都好或者其他标点符号影响亚马逊对search terms的搜索和抓取。</li><li>重复单词没有意义，没必要叠加关键词。</li><li>尽量多包含一些词语(精准关键词、宽泛关键词、长尾关键词、趋势性词语)。</li></ul><h4 id="怎么获取产品相关的关键词"><a href="#怎么获取产品相关的关键词" class="headerlink" title="怎么获取产品相关的关键词?"></a>怎么获取产品相关的关键词?</h4><ul><li>亚马逊搜索下拉框(站内热搜词可以作为关键词参考)。</li><li>看竞品的标题和描述使用了什么关键词。(搜索best seller，可以借用其标题的重点搜索词)</li><li>看客户在用什么关键词(review, Q&amp;A)。</li><li>相关关键词工具。</li><li>PPC关键词。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;标题&quot;&gt;&lt;a href=&quot;#标题&quot; class=&quot;headerlink&quot; title=&quot;标题&quot;&gt;&lt;/a&gt;标题&lt;/h3&gt;&lt;p&gt;&lt;strong&gt;标题是最重要的关键词。&lt;/strong&gt;&lt;br&gt;&lt;strong&gt;好的标题需要包含产品相关信息的同时，能让客户不用再看其他任何产品信息就可以产生正确的购买行为。&lt;/strong&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>listing页面详解</title>
+    <link href="https://ioser.io/pb/listing-frontpage-detailed.html"/>
+    <id>https://ioser.io/pb/listing-frontpage-detailed.html</id>
+    <published>2020-02-04T10:59:10.000Z</published>
+    <updated>2020-12-09T04:09:37.926Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="产品的五要素"><a href="#产品的五要素" class="headerlink" title="产品的五要素"></a><a href="https://ioser.io/2020/02/05/%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0/">产品的五要素</a></h3><ul><li>标题(Product Name)</li><li>图片(Picture, 最多九张)</li><li>5点描述(bullet points)</li><li>详情描述(Product Description)</li><li>后台关键词设置(KeyWords, 消费者不可见)<a id="more"></a></li></ul><h3 id="黄金购物车"><a href="#黄金购物车" class="headerlink" title="黄金购物车"></a>黄金购物车</h3><h4 id="关于购物车"><a href="#关于购物车" class="headerlink" title="关于购物车"></a>关于购物车</h4><ul><li>位于卖家最方便购物的位置。</li><li>亚马逊根据各种因素(价格、是否FBA、转化率、账号绩效等)来评估listing，达标的listing才可获得黄金购物车。</li><li>亚马逊80%的订单来自购物车。</li></ul><h4 id="BuyBox抢夺机制"><a href="#BuyBox抢夺机制" class="headerlink" title="BuyBox抢夺机制"></a>BuyBox抢夺机制</h4><ul><li>BuyBox不是固定给一个ASIN的，需要通过竞争后，给予一个Amazon算法评分最好的ASIN。评分分为静态评分和动态评分。</li><li>静态评分: 主要是产品的图片、title、bullet points, 描述、类目关联性等。</li><li>动态评分: 后台的绩效(performance)、客户购买率、跳出率、停留时间、退单率、Review等。</li><li>静态评分+动态评分=综合评分。综合评分决定“排名+BuyBox的授予”。</li></ul><p><strong>评分低，购物车权重就会降低，BuyBox就会给到评分高的人。</strong></p><h4 id="怎么抢夺购物车"><a href="#怎么抢夺购物车" class="headerlink" title="怎么抢夺购物车"></a>怎么抢夺购物车</h4><ol><li>配送方: 管理好物流，缩短运输时间，建议发FBA。</li><li>获取更多的销量和好评。</li><li>降低订单缺陷率(ODR)，减少差评。</li><li>保持库存稳定，价格稳定。</li><li>提高卖家评级、评价分数。</li></ol><h3 id="listing页面关联流量模块"><a href="#listing页面关联流量模块" class="headerlink" title="listing页面关联流量模块"></a>listing页面关联流量模块</h3><h4 id="Frequently-bought-together-FBT-捆绑关联"><a href="#Frequently-bought-together-FBT-捆绑关联" class="headerlink" title="Frequently bought together(FBT,捆绑关联)"></a>Frequently bought together(FBT,捆绑关联)</h4><ul><li>可一键购买</li><li>最多两个展位，一般一个</li><li>跟listing商品性质相关(同类型或者互补)</li><li>捆绑产品数据在同类产品里面排名最靠前才可以</li></ul><h4 id="Sponsored-products-related-to-this-item-广告关联"><a href="#Sponsored-products-related-to-this-item-广告关联" class="headerlink" title="Sponsored products related to this item(广告关联)"></a>Sponsored products related to this item(广告关联)</h4><ul><li>展位较多，根据产品的竞争度和体量给予不同数量展位</li><li>大多是自动广告</li></ul><h4 id="Customers-who-viewed-this-item-also-viewed-商品买家相关购买，买了又买，看了又看"><a href="#Customers-who-viewed-this-item-also-viewed-商品买家相关购买，买了又买，看了又看" class="headerlink" title="Customers who viewed this item also viewed(商品买家相关购买，买了又买，看了又看)"></a>Customers who viewed this item also viewed(商品买家相关购买，买了又买，看了又看)</h4><ul><li>大部分为同类型产品</li></ul><h4 id="Special-offers-and-product-promotions-特价产品"><a href="#Special-offers-and-product-promotions-特价产品" class="headerlink" title="Special offers and product promotions(特价产品)"></a>Special offers and product promotions(特价产品)</h4><ul><li>店铺的促销活动</li></ul><h4 id="Compare-with-similar-item-关联流量"><a href="#Compare-with-similar-item-关联流量" class="headerlink" title="Compare with similar item(关联流量)"></a>Compare with similar item(关联流量)</h4><ul><li>推送同类竞品比较</li><li>跟主listing产品属性价格接近</li><li>包含产品标题、图片、Review、Price、Shipping、Seller、规格等，以表格形式表现。</li><li>优化listing，最大化转换率，避免给竞品做嫁衣。</li></ul><h3 id="Customer-questions-amp-answers-Q-amp-A"><a href="#Customer-questions-amp-answers-Q-amp-A" class="headerlink" title="Customer questions &amp; answers(Q&amp;A)"></a>Customer questions &amp; answers(Q&amp;A)</h3><h4 id="关于Q-amp-A"><a href="#关于Q-amp-A" class="headerlink" title="关于Q&amp;A"></a>关于Q&amp;A</h4><ul><li>标题下方会展示Q&amp;A数量。</li><li>listing首页最多显示四个问题，根据vote数量降序排序，有想让买家注意的问题，可以借用人工点赞想办法把问题排到前面。</li><li>解答消费者相关的一些问题。</li><li>Q&amp;A数量比较多的话，会形成类似社区论坛的板块，供卖家买家沟通，增加产品亲切感，提升产品转化率。</li></ul><h4 id="如何提问Q-amp-A？"><a href="#如何提问Q-amp-A？" class="headerlink" title="如何提问Q&amp;A？"></a>如何提问Q&amp;A？</h4><ul><li>必须买家账号才能提问。</li><li>提问的问题会发送到卖家邮箱，点击链接就回到Amazon前台。</li><li>提前做好回复文案。</li></ul><h4 id="如何回复Q-amp-A"><a href="#如何回复Q-amp-A" class="headerlink" title="如何回复Q&amp;A?"></a>如何回复Q&amp;A?</h4><ul><li>可由卖家回答，也可邀请买过的买家回答。</li><li>第一个问题建议卖家回答，更专业，更了解产品。</li><li>问题随机发放给卖家或者买家。</li></ul><h3 id="亚马逊评价系统"><a href="#亚马逊评价系统" class="headerlink" title="亚马逊评价系统"></a>亚马逊评价系统</h3><h4 id="Custom-Review-Product-Review"><a href="#Custom-Review-Product-Review" class="headerlink" title="Custom Review(Product Review)"></a>Custom Review(Product Review)</h4><ul><li>针对产品本身，不涉及物流、客服的评价，在亚马逊上购买过东西的人都可以评价。</li><li>不影响卖家绩效，影响买家对产品的印象。</li><li>VP评价(Verified Purchase):认证买家评价，全额购买的买家的评价，权重较大。</li><li>直评:没有购买直接评价，或者商品优惠力度大购买后留的评价，权重较小，但不容小视。</li><li>Review排名受点赞次数和评价账号权重的影响。</li><li>亚马逊禁止卖家邀请Top Reviewer或者用免费产品或者折扣换取review。</li></ul><h4 id="FeedBack"><a href="#FeedBack" class="headerlink" title="FeedBack"></a>FeedBack</h4><ul><li>对订单整体的评价，以店铺服务(产品、物流、客服)评价围主，在店铺首页显示。</li><li>只有下了订单的买家才能留Feedback，一个订单只能评价一次。</li><li>Feedback影响卖家店铺绩效和ODR(订单缺陷率)。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;产品的五要素&quot;&gt;&lt;a href=&quot;#产品的五要素&quot; class=&quot;headerlink&quot; title=&quot;产品的五要素&quot;&gt;&lt;/a&gt;&lt;a href=&quot;https://ioser.io/2020/02/05/%E4%BA%A7%E5%93%81%E7%9A%84%E4%BA%94%E8%A6%81%E7%B4%A0/&quot;&gt;产品的五要素&lt;/a&gt;&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;标题(Product Name)&lt;/li&gt;
+&lt;li&gt;图片(Picture, 最多九张)&lt;/li&gt;
+&lt;li&gt;5点描述(bullet points)&lt;/li&gt;
+&lt;li&gt;详情描述(Product Description)&lt;/li&gt;
+&lt;li&gt;后台关键词设置(KeyWords, 消费者不可见)
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚马逊前台界面讲解</title>
+    <link href="https://ioser.io/pb/amazon-front-page.html"/>
+    <id>https://ioser.io/pb/amazon-front-page.html</id>
+    <published>2020-02-04T10:57:38.000Z</published>
+    <updated>2020-12-09T04:09:37.929Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="搜索界面"><a href="#搜索界面" class="headerlink" title="搜索界面"></a>搜索界面</h3><p> 亚马逊两大流量入口：搜索框、类目检索。两者为互补关系。  </p><h4 id="关键词搜索"><a href="#关键词搜索" class="headerlink" title="关键词搜索"></a>关键词搜索</h4><ul><li>以最快的时间，最高的效率，让不同的消费者在尽量靠前的位置寻找想要的商品。</li><li>消费者不能准确掌握关键词时，不能顺利找到合适的商品。</li><li>一般搜索流量多而相对不如类目搜索精确。</li><li>关键词设置要准确。<a id="more"></a></li></ul><h4 id="类目搜索"><a href="#类目搜索" class="headerlink" title="类目搜索"></a>类目搜索</h4><ul><li>不同的类目，产品的流量分配不同。</li><li>类目要设置正确。</li><li>竞争大的类目流量大。小类目流量小，但竞争小，成功率大。</li></ul><h3 id="秒杀界面"><a href="#秒杀界面" class="headerlink" title="秒杀界面"></a>秒杀界面</h3><p><strong>秒杀是推广产品和提升排名的好方法。</strong></p><ul><li>Deal of the Day(DOTD, 每日秒杀)<ul><li>流量大，免费，时间为一天，每天只有三个广告位，极难申请。</li></ul></li><li>Lightning Deals(LD，闪电秒杀)<ul><li>每个ASIN收取$150(根据淡旺季决定)，时效为4H-6H(美国站6H，欧洲站4H)。</li><li>优秀卖家有机会参加秒杀，要准备充足库存，价格为30天内最低价的85折。</li></ul></li><li>Savings &amp; Sales(Best Deal, 简称BD，周秒杀)<ul><li>持续2周左右，涵盖美国站和日本站。</li></ul></li><li>Coupons(优惠券)<ul><li>star在3.5分以上可以设置优惠券。</li><li>优惠力度比较大推广时可以设置。</li></ul></li><li>Prime Early Access Deals<ul><li>针对亚马逊会员提前进入秒杀的通道。</li></ul></li></ul><p><strong>秒杀期间不可断货，参加秒杀24H之内可以取消，但尽量不要取消。</strong></p><h3 id="前台相关标示讲解"><a href="#前台相关标示讲解" class="headerlink" title="前台相关标示讲解"></a>前台相关标示讲解</h3><h4 id="Amazon-Prime"><a href="#Amazon-Prime" class="headerlink" title="Amazon Prime"></a>Amazon Prime</h4><ul><li>亚马逊会员服务。亚马逊自营(sold by Amazon)或者物流为FBA的商品，均享受免费两日送达服务。</li><li>针对会员服务的商品会显示Prime标签。</li><li>非会员购买Prime商品，则Prime商品达到$35的最低配送标准，如果购物车商品低于35美金，则需要缴纳6美金的花费。</li></ul><h4 id="Sponsored-Products-PPC-广告商品"><a href="#Sponsored-Products-PPC-广告商品" class="headerlink" title="Sponsored Products(PPC, 广告商品)"></a>Sponsored Products(PPC, 广告商品)</h4><ul><li>依靠关键词的竞价排名，设定关键词，设定价格，关键词被搜索时有机会展示商品，点击时付费。</li><li>20listing/page，16个自然搜索排名产品+4个广告商品。</li></ul><h4 id="Add-on-Item"><a href="#Add-on-Item" class="headerlink" title="Add-on Item"></a>Add-on Item</h4><ul><li>卖家把FBA商品价格设置过低(&lt;$9.9)，有概率被亚马逊贴上该标识。</li><li>购买时订单金额需大于亚马逊最低配送标准，否则Add-on Item商品不可结算，其他购买的商品可正常结算。</li><li>单买不发货，影响点击购买转化率，可采取捆绑销售等方式。</li></ul><h4 id="Amazon-Choice"><a href="#Amazon-Choice" class="headerlink" title="Amazon Choice"></a>Amazon Choice</h4><ul><li>亚马逊Echo机器人收录到语音购买推荐的商品。</li><li>机器人收录关键词，店铺绩效做到同类最佳。</li></ul><h3 id="榜单讲解"><a href="#榜单讲解" class="headerlink" title="榜单讲解"></a>榜单讲解</h3><p><strong>以销量依据排名给商品贴的标签：</strong></p><ul><li><strong>Amazon Choices</strong></li><li><strong>Best Sellers</strong></li><li><strong>New Releases</strong></li></ul><h4 id="Amazon-Best-Sellers"><a href="#Amazon-Best-Sellers" class="headerlink" title="Amazon Best Sellers"></a>Amazon Best Sellers</h4><ul><li>Our most popular products based on sales. Updated hourly.</li><li>综合所有的商品排名</li></ul><h4 id="New-Releases"><a href="#New-Releases" class="headerlink" title="New Releases"></a>New Releases</h4><ul><li>Our best-selling new and future releases. Updated hourly.</li><li>新品排名</li></ul><h4 id="Movers-amp-Shakers"><a href="#Movers-amp-Shakers" class="headerlink" title="Movers &amp; Shakers"></a>Movers &amp; Shakers</h4><ul><li>Our biggest gainers in sales rank over the past 24 hours. Updated hourly.</li><li>产品飙升榜</li></ul><h4 id="Most-Wished-For"><a href="#Most-Wished-For" class="headerlink" title="Most Wished For"></a>Most Wished For</h4><ul><li>Our products most often added to Wishlists and Registries. Updated daily.</li><li>产品收藏榜</li></ul><h4 id="Gift-Ideas"><a href="#Gift-Ideas" class="headerlink" title="Gift Ideas"></a>Gift Ideas</h4><ul><li>Our most popular products ordered as gifts. Updated daily.</li><li>礼品榜</li></ul><ul><li>message. 以文字方式发送祝福给赠与方，有字数限制，免费。</li><li>Gift options available. 礼盒包装产品，从买家收取费用，卖家只决定产品是否具有礼品性质。</li></ul>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h3 id=&quot;搜索界面&quot;&gt;&lt;a href=&quot;#搜索界面&quot; class=&quot;headerlink&quot; title=&quot;搜索界面&quot;&gt;&lt;/a&gt;搜索界面&lt;/h3&gt;&lt;p&gt; 亚马逊两大流量入口：搜索框、类目检索。两者为互补关系。  &lt;/p&gt;
+&lt;h4 id=&quot;关键词搜索&quot;&gt;&lt;a href=&quot;#关键词搜索&quot; class=&quot;headerlink&quot; title=&quot;关键词搜索&quot;&gt;&lt;/a&gt;关键词搜索&lt;/h4&gt;&lt;ul&gt;
+&lt;li&gt;以最快的时间，最高的效率，让不同的消费者在尽量靠前的位置寻找想要的商品。&lt;/li&gt;
+&lt;li&gt;消费者不能准确掌握关键词时，不能顺利找到合适的商品。&lt;/li&gt;
+&lt;li&gt;一般搜索流量多而相对不如类目搜索精确。&lt;/li&gt;
+&lt;li&gt;关键词设置要准确。
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚马逊关联风险</title>
+    <link href="https://ioser.io/pb/amazon-matters-need-attention.html"/>
+    <id>https://ioser.io/pb/amazon-matters-need-attention.html</id>
+    <published>2020-02-04T10:55:33.000Z</published>
+    <updated>2020-12-09T04:09:37.928Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="关联风险简介"><a href="#关联风险简介" class="headerlink" title="关联风险简介"></a>关联风险简介</h2><p>亚马逊通过技术手段获取卖家相关信息，匹配关联因素判断多个账号是否同一卖家在操作。</p><ul><li>提高消费者购物体验。</li><li>防止卖家重复铺货销售相同产品。<a id="more"></a></li></ul><h3 id="同站关联"><a href="#同站关联" class="headerlink" title="同站关联"></a>同站关联</h3><p>一个卖家不允许同站点拥有多个账号，审核资料要完全不一致。</p><h3 id="不同站点"><a href="#不同站点" class="headerlink" title="不同站点"></a>不同站点</h3><p>同一套资料，可以在不同站点注册店铺，但A站店铺出现问题会影响B站店铺。亚马逊鼓励在不同站点申请账号，全球开店。</p><h2 id="关联导致的后果"><a href="#关联导致的后果" class="headerlink" title="关联导致的后果"></a>关联导致的后果</h2><p>账号发生关联，相关账户会被查露出，申诉回来的概率为0.</p><ul><li>相同站点，几个账户关联，如果每个账号卖的产品有交叉相同，强制下架新建账号的全部listing。</li><li>同站点，几个账号关联，如果每个账号卖的品类不同，且账号表现不错，则可能全部继续存活。</li><li>任何站点，如果关联了关闭的账号，那么这个账号一定会被关闭，时间不确定(受操作、绩效等原因)。</li></ul><h2 id="关联因素"><a href="#关联因素" class="headerlink" title="关联因素"></a>关联因素</h2><ul><li><p>硬件关联</p><ul><li>ip地址、路由器、猫</li><li>mac地址、硬盘信息、(电脑插件等)软件因素</li></ul></li><li><p>软件关联(弱关联)</p><ul><li>注册账号填写的相关信息(信用卡、收款方式、电话、邮箱等)</li><li>浏览器指纹、时区、cookie、插件、字体、打字速度、打字方式、邮件、flash等</li><li>产品重复率(&gt;= 30 %)、文案、运营习惯</li></ul></li></ul><h2 id="怎么防关联"><a href="#怎么防关联" class="headerlink" title="怎么防关联"></a>怎么防关联</h2><p>最安全直接的方法:申请账户的所有资料、网络和硬件都是全新的、相互独立的。</p><h2 id="Q-amp-A"><a href="#Q-amp-A" class="headerlink" title="Q&amp;A"></a>Q&amp;A</h2><ol><li><p>Q: 同一个人的同一张信用卡用在不同的站点会关联吗？<br>A: 同一套公司资料注册的不同站点可以绑定同一张信用卡，不会关联。（参考<a href="#关联风险简介">关联简介</a>)</p></li><li><p>Q: 一个账号同一个电脑，经常去几个不同的网络登入，会有问题吗？<br>A: 确定每个网络没有其他账号登陆过即可。</p></li><li><p>Q: 收款卡也要分别使用不同的电脑登录吗？<br>A: 不用分开登录。只要绑定时，一个收款账户没有一对多进行绑定就没有关联的风险。</p></li><li><p>Q: VPS、VPN或者其他翻墙会导致关联吗？<br>A: 有可能。尽量翻墙时不登录后台。如果出现被处理情况，提交(营业执照、信用卡账单等)<br>   资料申诉。</p></li><li><p>Q: 关联只存在于卖家与卖家之间吗？<br>A: 卖家账号也可以作为买家账号，只要是亚马逊账号就不要在同一个电脑上登</p></li><li><p>Q: 同一个电脑可以登两个亚马逊账号邮箱吗？<br>A: 可以。</p></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;关联风险简介&quot;&gt;&lt;a href=&quot;#关联风险简介&quot; class=&quot;headerlink&quot; title=&quot;关联风险简介&quot;&gt;&lt;/a&gt;关联风险简介&lt;/h2&gt;&lt;p&gt;亚马逊通过技术手段获取卖家相关信息，匹配关联因素判断多个账号是否同一卖家在操作。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;提高消费者购物体验。&lt;/li&gt;
+&lt;li&gt;防止卖家重复铺货销售相同产品。
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>亚马逊新卖家注意：新入场亚马逊这些红线不要踩！</title>
+    <link href="https://ioser.io/pb/amazon-new-user-danger.html"/>
+    <id>https://ioser.io/pb/amazon-new-user-danger.html</id>
+    <published>2019-12-24T05:22:56.000Z</published>
+    <updated>2020-12-09T04:09:37.932Z</updated>
+    
+    <content type="html"><![CDATA[<h4 id="1-注册多个卖家账户"><a href="#1-注册多个卖家账户" class="headerlink" title="1. 注册多个卖家账户"></a>1. 注册多个卖家账户</h4><p>切记，每个卖家只能注册一个账号。所以想要拥有多个账号，必须拿不同人的资料去注册。切记，不要贪心。</p><a id="more"></a><h4 id="2-将买家引到自己的网站"><a href="#2-将买家引到自己的网站" class="headerlink" title="2. 将买家引到自己的网站"></a>2. 将买家引到自己的网站</h4><p>其实这个很好理解，大家无论做什么平台，都是为了销量。同是自己的产品，卖家当然想把所有的流量统统利用起来。但是，如果你在listing里面直接放url网站链接，这是被亚马逊绝对禁止的。</p><p>亚马逊是一个封闭的体系，它允许你从外部引来流量，但绝对禁止你把流量引出去。</p><h4 id="3-完全copy其他卖家的账户设置"><a href="#3-完全copy其他卖家的账户设置" class="headerlink" title="3. 完全copy其他卖家的账户设置"></a>3. 完全copy其他卖家的账户设置</h4><p>你要记住，在亚马逊上销售不是一件很轻松的事情，想什么都不做直接等着订单来，那你就趁早断了这个念头吧，而且你的竞争对手很大可能违反了亚马逊政策，所以不要一味地照搬照抄，要不断的观察亚马逊的最新规定，不断地优化设置。</p><h4 id="4-选择了错误的卖家账户类型"><a href="#4-选择了错误的卖家账户类型" class="headerlink" title="4. 选择了错误的卖家账户类型"></a>4. 选择了错误的卖家账户类型</h4><p>亚马逊除了个人卖家和专业卖家外，还有Vendor，Vendor Express、Seller、Business等，所以我们一定要研究好你到底适合哪种类型的账户。</p><h4 id="5-曲解了亚马逊的运作方式"><a href="#5-曲解了亚马逊的运作方式" class="headerlink" title="5. 曲解了亚马逊的运作方式"></a>5. 曲解了亚马逊的运作方式</h4><p>请大家铭记，亚马逊和eBay和Google是不一样的，不要像对待eBay或Google那样对待亚马逊。亚马逊的运营结构与这两个完全不一样。确保你的商店能够处理亚马逊上的销售，而且你的策略与亚马逊的策略是一致的，这样你就能在亚马逊市场上获得最高的投资回报率。</p><h4 id="6-Listing信息错误"><a href="#6-Listing信息错误" class="headerlink" title="6. Listing信息错误"></a>6. Listing信息错误</h4><p>Listing对于我们的产品就像我们人的身体一样，真的是非常非常重要了。皮相好才都能卖的出去这话没错吧。所以我们一定要确保我们的listing信息准确无误，类似拼写错误信息错误这样子的状况真的是重大失误了，大家一定不要犯！！！</p><h4 id="7-在title里含有促销优惠码等信息"><a href="#7-在title里含有促销优惠码等信息" class="headerlink" title="7. 在title里含有促销优惠码等信息"></a>7. 在title里含有促销优惠码等信息</h4><p>在你的产品标题中包含优惠券或商店营销信息，虽然看起来能使你在亚马逊上脱颖而出，然而，这显然违反了亚马逊的政策，不要存在侥幸心里，亚马逊爸爸心里明镜似的，一定会秋后算账的。从长远来看，建议还是不要做这种危险的试探。我们要避免类似20 off这样的一切看上去像透露打折信息的词汇。</p><h4 id="8-在产品图中嵌入促销信息"><a href="#8-在产品图中嵌入促销信息" class="headerlink" title="8. 在产品图中嵌入促销信息"></a>8. 在产品图中嵌入促销信息</h4><p>亚马逊不等同于淘宝。淘宝上可以在图片加有的没的促销信息，而且是不错的吸睛手段。但是亚马逊是明文禁止的，所以我们也不要踩这个雷区。</p><h4 id="9-客户服务错误"><a href="#9-客户服务错误" class="headerlink" title="9. 客户服务错误"></a>9. 客户服务错误</h4><p>客户就是上帝啊，这句话对任何服务业都是真理，电商也是如此。尽全力的满足shoppers是亚马逊卖家必须要牢记的信念。要知道，客户的一个差评也许就是致命一击，一定要尽力去满足买家的要求。</p><h4 id="10-过高的物流费用"><a href="#10-过高的物流费用" class="headerlink" title="10. 过高的物流费用"></a>10. 过高的物流费用</h4><p>试想一下，买家点进你的listing，看见运费高的吓人，我相信对于一般的买家来说，多少都会有点望而却步。</p><h4 id="11-发货过慢"><a href="#11-发货过慢" class="headerlink" title="11. 发货过慢"></a>11. 发货过慢</h4><p>很多人选择在亚马逊上购物，就是看中了其方便又快捷。在填发货时间时，一定要诚实，并尽可能地加快发货速度。</p><h4 id="12-根据电子邮件通知管理您的帐户"><a href="#12-根据电子邮件通知管理您的帐户" class="headerlink" title="12. 根据电子邮件通知管理您的帐户"></a>12. 根据电子邮件通知管理您的帐户</h4><p>如果你用电子邮件来更改亚马逊的设置，则无法有效地管理你的帐户。记住，电子邮件很容易删除或丢失。我们必须要主动响应客户需求，管理库存，处理客户活动。</p><p><strong>最后的最后，千言万语凝成一句话：顾客就是上帝，永远把顾客放在第一位。</strong></p><p>转载自<a href="https://www.cifnews.com/article/50782">雨果网</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h4 id=&quot;1-注册多个卖家账户&quot;&gt;&lt;a href=&quot;#1-注册多个卖家账户&quot; class=&quot;headerlink&quot; title=&quot;1. 注册多个卖家账户&quot;&gt;&lt;/a&gt;1. 注册多个卖家账户&lt;/h4&gt;&lt;p&gt;切记，每个卖家只能注册一个账号。所以想要拥有多个账号，必须拿不同人的资料去注册。切记，不要贪心。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="电商运营" scheme="https://ioser.io/categories/%E7%94%B5%E5%95%86%E8%BF%90%E8%90%A5/"/>
+    
+    
+      <category term="亚马逊" scheme="https://ioser.io/tags/%E4%BA%9A%E9%A9%AC%E9%80%8A/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>归园草</title>
+    <link href="https://ioser.io/pb/some-essay-poetry-old.html"/>
+    <id>https://ioser.io/pb/some-essay-poetry-old.html</id>
+    <published>2011-02-23T09:23:27.000Z</published>
+    <updated>2020-12-21T05:45:44.424Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>于2008–2009年</em></p><h2 id="过故道"><a href="#过故道" class="headerlink" title="过故道"></a>过故道</h2><p>亦颦亦笑思陶然，有时如月遥在天。一踏板桥身犹湿，孤影临水照人寒。</p><h2 id="别友人"><a href="#别友人" class="headerlink" title="别友人"></a>别友人</h2><ul><li>其一</li></ul><p>梦里花，随风蒹葭。心随平野阔，梦入大江遐。回望南浦人何处，一竿残照天之涯。</p><a id="more"></a><ul><li>其二</li></ul><p>有道是，人生匆匆，叹白驹过隙。至苦易散难聚，最怕是长亭别去。长亭别去君应忆，月华如酒使人醉，郁色养眼花尘地。</p><h2 id="杂思"><a href="#杂思" class="headerlink" title="杂思"></a>杂思</h2><ul><li>其一</li></ul><p>当日失此一步多，肯把朱颜付蹉跎。高山不改长流水，乱绪欲飞渡星河。</p><ul><li>其二</li></ul><p>三盏狂言青春泪，十载相知离别醉。五年再遇无一言，此时思君君可知。</p><h2 id="送别"><a href="#送别" class="headerlink" title="送别"></a>送别</h2><ul><li>其一</li></ul><p>长亭别时辛，强颜抑商音。故人一挥手，轻尘上玉琴。</p><ul><li>其二</li></ul><p>白萍摇翠霜，湖月两茫茫。如何九月九，不闻此花香。</p><h2 id="采桑子"><a href="#采桑子" class="headerlink" title="采桑子"></a>采桑子</h2><p>唱破晓寒换新颜。九十年前，是我青年。人间五月艳阳天。</p><p>搏得残风拂赤旗。当日长剑，今凭谁传。刺骨能忍映雪寒。</p><h2 id="如梦令"><a href="#如梦令" class="headerlink" title="如梦令"></a>如梦令</h2><p>欲忘何期再会。秋灯无言相对。万语都成灰，曲终红颜消退。沉醉。沉醉。看取一池萍碎。</p><h2 id="乐景"><a href="#乐景" class="headerlink" title="乐景"></a>乐景</h2><p>独窗默坐书在几，卧听清风萧萧语。人生自在花飞雪，竹林知友谈笑时。</p><h2 id="东楼友会得句"><a href="#东楼友会得句" class="headerlink" title="东楼友会得句"></a>东楼友会得句</h2><p>残灯幢幢风细细，相对无言促织语。泪眼不妨传杯手，笑看重影起无力。</p><h2 id="蝶恋花"><a href="#蝶恋花" class="headerlink" title="蝶恋花"></a>蝶恋花</h2><p>素衣红尘萍逢罢。会心不远，休云一梦嗟。朝日含羞偎烟霞。青鸟时鸣待信发。</p><p>流光不待将天涯。吟哦蒹葭。对此蝶恋花。清晖地路直平沙。挽手梦话人已差。</p><h2 id="新村老者"><a href="#新村老者" class="headerlink" title="新村老者"></a>新村老者</h2><p>昔我遇老者，高揖前问站：“老来日何喜，如何有童颜！”老者笑招手：“此故亦常言。识得少陵语，广厦千万间。茫茫百余纪，此事古难全。平地一声雷，春风三十年。俯听民间意，来暖天下寒。去陈弃敝屣，迎新思铭盘。日识其所无，适足激越远。以此能先进，生活日三变。方丈鳞鳞比，百尺峨峨现。稚子今花甲，朝阳靧新颜。”</p><h2 id="菩萨蛮"><a href="#菩萨蛮" class="headerlink" title="菩萨蛮"></a>菩萨蛮</h2><p>记得当日小楼空，旧雨甫逢君又东。三月鸿雁断，爱花人不见。</p><p>心似双丝网，交织千个心。彷徨插茱萸，登高只一人。­</p><h2 id="清明集句"><a href="#清明集句" class="headerlink" title="清明集句"></a>清明集句</h2><p>清明时节雨纷纷，杨柳青青客舍新。此心安处是吾乡，远游无处不消魂。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;em&gt;于2008–2009年&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&quot;过故道&quot;&gt;&lt;a href=&quot;#过故道&quot; class=&quot;headerlink&quot; title=&quot;过故道&quot;&gt;&lt;/a&gt;过故道&lt;/h2&gt;&lt;p&gt;亦颦亦笑思陶然，有时如月遥在天。一踏板桥身犹湿，孤影临水照人寒。&lt;/p&gt;
+&lt;h2 id=&quot;别友人&quot;&gt;&lt;a href=&quot;#别友人&quot; class=&quot;headerlink&quot; title=&quot;别友人&quot;&gt;&lt;/a&gt;别友人&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;其一&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;梦里花，随风蒹葭。心随平野阔，梦入大江遐。回望南浦人何处，一竿残照天之涯。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="信手涂鸦" scheme="https://ioser.io/categories/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/"/>
+    
+    
+      <category term="随笔" scheme="https://ioser.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+      <category term="涂鸦" scheme="https://ioser.io/tags/%E6%B6%82%E9%B8%A6/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>曝书留痕</title>
+    <link href="https://ioser.io/pb/feeling-of-reading.html"/>
+    <id>https://ioser.io/pb/feeling-of-reading.html</id>
+    <published>2011-02-06T09:19:57.000Z</published>
+    <updated>2020-12-21T05:46:04.360Z</updated>
+    
+    <content type="html"><![CDATA[<p> 一鉴之书，可以养浩，可以医愚。<br> <a id="more"></a></p><p> 书中有山有水，有日有月，有乾坤，有宇宙，氤氲充荡，何际何涯！拔身一跃，游乎其中，去彼芥蒂，养吾浩然，虽处闹市，已沐林下之风。</p><p> “书犹药也，善读可以医愚。”斯言是也。或称书为镜考，为其可以明是非，知得失，渺冥景湛，无不了然。目视之，心知之，同付一笑，人间今古。­</p><p> <em>大约在高一读《资治通鉴》时在书签上写的，2008年前后。</em></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt; 一鉴之书，可以养浩，可以医愚。&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="信手涂鸦" scheme="https://ioser.io/categories/%E4%BF%A1%E6%89%8B%E6%B6%82%E9%B8%A6/"/>
+    
+    
+      <category term="随笔" scheme="https://ioser.io/tags/%E9%9A%8F%E7%AC%94/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>〇1</title>
+    <link href="https://ioser.io/pb/open-to-ending.html"/>
+    <id>https://ioser.io/pb/open-to-ending.html</id>
+    <published>2008-09-16T09:13:38.000Z</published>
+    <updated>2020-12-12T11:33:37.109Z</updated>
+    
+    <content type="html"><![CDATA[<p>一切的一切都是虚幻的……我就是乌托邦里的流浪汉…四处徘徊..四处流浪..</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;一切的一切都是虚幻的……我就是乌托邦里的流浪汉…四处徘徊..四处流浪..&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+      <category term="签名" scheme="https://ioser.io/categories/%E7%AD%BE%E5%90%8D/"/>
+    
+    
+      <category term="签名" scheme="https://ioser.io/tags/%E7%AD%BE%E5%90%8D/"/>
+    
+  </entry>
+  
+</feed>
